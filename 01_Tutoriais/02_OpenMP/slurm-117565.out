@@ -1,0 +1,17 @@
+Thread 0 is running on CPU 0 and says: Hello World
+Thread 0 is running on CPU 0 and reports: the number of threads are 16
+Thread 9 is running on CPU 33 and says: Hello World
+Thread 14 is running on CPU 38 and says: Hello World
+Thread 12 is running on CPU 36 and says: Hello World
+Thread 6 is running on CPU 6 and says: Hello World
+Thread 15 is running on CPU 39 and says: Hello World
+Thread 10 is running on CPU 34 and says: Hello World
+Thread 2 is running on CPU 2 and says: Hello World
+Thread 3 is running on CPU 3 and says: Hello World
+Thread 4 is running on CPU 4 and says: Hello World
+Thread 1 is running on CPU 1 and says: Hello World
+Thread 8 is running on CPU 32 and says: Hello World
+Thread 7 is running on CPU 7 and says: Hello World
+Thread 13 is running on CPU 37 and says: Hello World
+Thread 5 is running on CPU 5 and says: Hello World
+Thread 11 is running on CPU 35 and says: Hello World

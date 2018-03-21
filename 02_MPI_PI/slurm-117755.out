@@ -1,0 +1,9 @@
+Hello from process 3 on node r1i3n1!
+hits: 3
+Hello from process 1 on node r1i3n0!
+hits: 4
+Hello from process 2 on node r1i3n1!
+hits: 4
+Hello from process 0 on node r1i3n0!
+hits: 3
+Total hits: 14

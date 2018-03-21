@@ -1,0 +1,5 @@
+Hello from process 0 on node r1i0n3!
+From process 0: Number of MPI processes is 4
+Hello from process 2 on node r1i0n4!
+Hello from process 1 on node r1i0n3!
+Hello from process 3 on node r1i0n4!

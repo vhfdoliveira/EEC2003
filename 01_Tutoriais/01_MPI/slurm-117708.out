@@ -1,0 +1,9 @@
+hello_mpi: error: _get_addr: No error
+hello_mpi: error: _get_addr: No error
+hello_mpi: error: _get_addr: No such file or directory
+Fatal error in MPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(784).....: 
+MPID_Init(1326)...........: channel initialization failed
+MPIDI_CH3_Init(120).......: 
+MPID_nem_init_ckpt(852)...: 
+MPIDI_CH3I_Seg_commit(307): PMI_Barrier returned -1

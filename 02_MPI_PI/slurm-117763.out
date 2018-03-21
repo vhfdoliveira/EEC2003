@@ -1,0 +1,11 @@
+Hello from process 0 on node r1i3n0!
+hits: 3
+Hello from process 2 on node r1i3n1!
+hits: 4
+Hello from process 3 on node r1i3n1!
+hits: 4
+Hello from process 1 on node r1i3n0!
+hits: 5
+Total hits: 16
+Total numbers: 20
+PI: 3.200000

@@ -1,0 +1,5 @@
+Thread 0 says: Hello World
+Thread 0 reports: the number of threads are 4
+Thread 3 says: Hello World
+Thread 1 says: Hello World
+Thread 2 says: Hello World

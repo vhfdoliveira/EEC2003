@@ -1,0 +1,12 @@
+Thread 0 is running on CPU 32 and reports: the number of threads are 10
+Thread 0 is running on CPU 32 and says: Hello World
+Thread 1 is running on CPU 32 and says: Hello World
+Thread 2 is running on CPU 0 and says: Hello World
+Thread 3 is running on CPU 32 and says: Hello World
+Thread 4 is running on CPU 0 and says: Hello World
+Thread 5 is running on CPU 0 and says: Hello World
+Thread 6 is running on CPU 0 and says: Hello World
+Thread 7 is running on CPU 32 and says: Hello World
+Thread 8 is running on CPU 32 and says: Hello World
+Thread 9 is running on CPU 32 and says: Hello World
+Time taken to execute: 0.000000 seconds
