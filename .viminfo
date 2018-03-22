@@ -13,6 +13,8 @@
 # Command Line History (newest to oldest):
 :q
 :wq
+:w
+:x
 :q!
 :!q
 
@@ -26,40 +28,58 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	#SBATCH --hint=compute_bound
+""1	LINE	0
+		double end = MPI_Wtime();
 "2	LINE	0
-	GOMP_CPU_AFFINITY='0,1,2,3'
+		double begin = MPI_Wtime();
 "3	LINE	0
-	#SBATCH --output=saida%j.out
-	
+		
+		return 0;
 "4	LINE	0
-	#SBATCH --nodes=3
-	#SBATCH --time=0-0:5
+		printf("PI: %f\n", pi);
+	  
 "5	LINE	0
-	#SBATCH --ntasks-per-node=4
+		double pi = ((double)(4*h)/n);
+		
 "6	LINE	0
-	#SBATCH --cpus-per-task=8
+		//printf("hits: %d\n", h);
+		
 "7	LINE	0
-	#SBATCH --job-name=MPI_hello  
+		}
+		
 "8	LINE	0
-	#SBATCH --error=erro%j.err
-""-	CHAR	0
+				h++;
+			}
+"9	LINE	0
+			
+			if (distance <= 0.5){
+"-	CHAR	0
 	K
 
 # File marks:
-'0  30  1  ~/01_Tutoriais/02_OpenMP/hello_openmp.c
-'1  5  0  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
-'2  1  0  ~/01_Tutoriais/02_OpenMP/script.sh
-'3  6  20  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
-'4  6  12  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
-'5  6  1  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
-'6  8  20  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
-'7  3  19  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
-'8  21  86  ~/01_Tutoriais/02_OpenMP/hello_openmp.c
-'9  1  0  ~/01_Tutoriais/02_OpenMP/hello_openmp.c
+'0  78  1  ~/02_MPI_PI/PI_MPI_time.c
+'1  66  2  ~/02_MPI_PI/PI_MPI_time.c
+'2  54  16  ~/02_MPI_PI/PI_MPI_time.c
+'3  1  0  ~/02_MPI_PI/PI_MPI_time.c
+'4  27  41  ~/02_MPI_PI/PI_MPI_time.c
+'5  13  40  ~/02_MPI_PI/test.c
+'6  12  26  ~/02_MPI_PI/test.c
+'7  13  14  ~/02_MPI_PI/PI_MPI_time.c
+'8  8  12  ~/02_MPI_PI/anotações
+'9  30  1  ~/01_Tutoriais/02_OpenMP/hello_openmp.c
 
 # Jumplist (newest first):
+-'  78  1  ~/02_MPI_PI/PI_MPI_time.c
+-'  66  1  ~/02_MPI_PI/PI_MPI_time.c
+-'  54  1  ~/02_MPI_PI/PI_MPI_time.c
+-'  1  0  ~/02_MPI_PI/PI_MPI_time.c
+-'  27  2  ~/02_MPI_PI/PI_MPI_time.c
+-'  13  1  ~/02_MPI_PI/PI_MPI_time.c
+-'  13  40  ~/02_MPI_PI/test.c
+-'  12  1  ~/02_MPI_PI/test.c
+-'  1  0  ~/02_MPI_PI/test.c
+-'  8  12  ~/02_MPI_PI/anotações
+-'  1  0  ~/02_MPI_PI/anotações
 -'  30  1  ~/01_Tutoriais/02_OpenMP/hello_openmp.c
 -'  5  0  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
 -'  6  0  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
@@ -148,18 +168,50 @@
 -'  6  13  ~/01_Tutoriais/jobMPI.sh
 -'  5  0  ~/01_Tutoriais/jobMPI.sh
 -'  8  0  ~/01_Tutoriais/jobMPI.sh
--'  10  13  ~/01_Tutoriais/jobMPI.sh
--'  3  0  ~/01_Tutoriais/jobMPI.sh
--'  4  0  ~/01_Tutoriais/jobMPI.sh
--'  2  0  ~/01_Tutoriais/jobMPI.sh
--'  1  0  ~/01_Tutoriais/jobMPI.sh
--'  6  13  ~/01_Tutoriais/jobMPI.sh
--'  5  0  ~/01_Tutoriais/jobMPI.sh
--'  8  0  ~/01_Tutoriais/jobMPI.sh
--'  10  13  ~/01_Tutoriais/jobMPI.sh
--'  5  0  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
 
 # History of marks within files (newest to oldest):
+
+> ~/02_MPI_PI/PI_MPI_time.c
+	"	78	1
+	.	68	0
+	+	12	14
+	+	13	0
+	+	27	41
+	+	31	0
+	+	34	0
+	+	54	1
+	+	67	1
+	+	54	16
+	+	54	27
+	+	69	44
+	+	75	2
+	+	76	2
+	+	84	2
+	+	85	2
+	+	54	16
+	+	40	34
+	+	68	26
+	+	54	0
+	+	68	0
+
+> ~/02_MPI_PI/test.c
+	"	13	40
+	^	13	41
+	.	13	40
+	+	14	0
+	+	17	0
+	+	17	0
+	+	16	9
+	+	12	26
+	+	10	20
+	+	12	46
+	+	13	40
+
+> ~/02_MPI_PI/anotações
+	"	8	12
+	^	8	13
+	.	8	13
+	+	8	13
 
 > ~/01_Tutoriais/02_OpenMP/hello_openmp.c
 	"	30	1

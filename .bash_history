@@ -221,3 +221,113 @@ ls
 cat hello_openmp.sh 
 ls
 vim hello_openmp.c 
+ls
+cd 02_MPI_PI/
+cat anotações 
+cd ..
+ls
+git init
+module avail
+module avail | grep g
+module load softwares/git/2.11.0-gnu-4.4 
+git init
+git status
+git add .
+git status
+git commit 
+git commit first commit
+git commit 'first commit'
+git commit "first commit"
+git commit -m "first commit"
+git config --global user.email "vhfdoliveira@ufrn.edu.br"
+git config --global user.name "vhfdoliveira"
+git config --global user.name "Victor Hugo"
+git remote add origin https://github.com/vhfdoliveira/EEC2003.git
+git push -u origin master
+git remote -v
+git push -u origin master
+git push
+ls
+cd 02_MPI_PI/
+ls
+vim anotações 
+git push
+git commit -m "my second commit"
+git add anotações 
+git commit -m "my second commit"
+git push
+ls
+mpicc PI_MPI_time.c -o PI_MPI_time
+./PI_MPI_time 
+./PI_MPI_time dfdf
+./PI_MPI_time 125478
+./PI_MPI_time 125478.568
+./PI_MPI_time dfdf
+mpicc PI_MPI_time.c -o PI_MPI_time
+./PI_MPI_time dfdf
+mpicc PI_MPI_time.c -o PI_MPI_time
+./PI_MPI_time dfdf
+./PI_MPI_time 12
+mpicc PI_MPI_time.c -o PI_MPI_time
+module avails
+mpicc PI_MPI_time.c -o PI_MPI_time
+mpiicc PI_MPI_time.c -o PI_MPI_time
+./PI_MPI_time 
+./PI_MPI_time 12
+srun -n4 PI_MPI_time 12
+srun -n2 -N2 PI_MPI_time 12
+srun -n2 -N2 --time=0-0:5 PI_MPI_time 12
+srun -n4 -N2 --time=0-0:5 PI_MPI_time 12
+mpiicc PI_MPI_time.c -o PI_MPI_time
+srun -n4 -N2 --time=0-0:10 PI_MPI_time 12
+mpiicc PI_MPI_time.c -o PI_MPI_time
+srun -n4 -N2 --time=0-0:10 PI_MPI_time 12
+srun -n4 -N4 --time=0-0:10 PI_MPI_time 12
+srun -n8 -N4 --time=0-0:10 PI_MPI_time 12
+srun -n8 -N2 --time=0-0:10 PI_MPI_time 12
+srun -n32 -N4 --time=0-0:10 PI_MPI_time 12
+srun -n8 -N4 --time=0-0:10 PI_MPI_time 12
+srun -n8 -N8 --time=0-0:10 PI_MPI_time 12
+srun -n8 -N4 --time=0-0:10 PI_MPI_time 12
+mpiicc PI_MPI_time.c -o PI_MPI_time
+srun -n8 -N4 --time=0-0:10 PI_MPI_time 12
+exit()
+exit
+ls
+cd 02_MPI_PI/
+ls
+cd /home/vhfdoliveira
+su vhfdoliveira
+ls
+cd 02_MPI_PI/
+l
+ls
+vim PI_MPI_time.c 
+cd 02_MPI_PI/
+ls
+cp PI_serial.c test.c
+vim test.c 
+gcc -Wall test.c -o test
+./test 
+vim test.c 
+gcc -Wall test.c -o test
+./test 
+ls
+ls
+cd 02_MPI_PI/
+vim PI_MPI_time.c 
+ls
+cd 02_MPI_PI/
+vim PI_MPI_time.c 
+mpiicc PI_MPI_time.c -o PI_MPI_time
+srun -n4 -N4 --time=0-0:5 PI_MPI_time 10
+vim PI_MPI_time.c 
+mpiicc PI_MPI_time.c -o PI_MPI_time
+srun -n4 -N4 --time=0-0:5 PI_MPI_time 10
+srun -n4 -N6 --time=0-0:5 PI_MPI_time 10
+srun -n4 -N2 --time=0-0:5 PI_MPI_time 10
+srun -n32 -N2 --time=0-0:5 PI_MPI_time 10
+vim PI_MPI_time.c 
+mpiicc PI_MPI_time.c -o PI_MPI_time
+srun -n32 -N2 --time=0-0:5 PI_MPI_time 10
+vim PI_MPI_time.c 

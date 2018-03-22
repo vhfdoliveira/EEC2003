@@ -4,6 +4,7 @@
 #include <time.h>
 #include <mpi.h>
 
+
 int main (int argc, char *argv[])
 {
 	int n = 1000000;
