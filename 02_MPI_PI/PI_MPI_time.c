@@ -52,9 +52,9 @@ int main (int argc, char *argv[])
 	double current_time = MPI_Wtime();
 	
 	while( current_time - initial_time < execution_time_seconds - 1 ){
-		for(i = 0; i<100000; i++){
+		for(i = 0; i<200000; i++){
 			n++;
-			if( n >= ULINT_MAX - 1 ){
+			if( n >= ULINT_MAX / comm_sz ){
 				printf("The number of points exceeded the maximum allowed for a unsigned long.\n");
 				exit(EXIT_FAILURE);
 			}
@@ -81,10 +81,10 @@ int main (int argc, char *argv[])
 	printf("numbers: %lu\n", n);
 	
 	unsigned long int h_total = 0;
-	MPI_Reduce(&h, &h_total, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
+	MPI_Reduce(&h, &h_total, 1, MPI_UNSIGNED_LONG, MPI_SUM, 0, MPI_COMM_WORLD);
 	
 	unsigned long int n_total = 0;
-	MPI_Reduce(&n, &n_total, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
+	MPI_Reduce(&n, &n_total, 1, MPI_UNSIGNED_LONG, MPI_SUM, 0, MPI_COMM_WORLD);
 	
 	
 	if (rank == 0){
