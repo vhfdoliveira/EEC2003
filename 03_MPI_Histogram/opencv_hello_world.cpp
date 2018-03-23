@@ -1,3 +1,5 @@
+//gcc opencv.c -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
+
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
 
@@ -15,10 +17,7 @@ int main(int argc, char** argv )
         return -1;
     }
     
-    namedWindow("Display Image", WINDOW_AUTOSIZE );
-    imshow("Display Image", image);
-    
-    waitKey(0);
+    printf("Width: %d\nHeight: %d\n", image.size().width, image.size().height);
     
     return 0;
 }
