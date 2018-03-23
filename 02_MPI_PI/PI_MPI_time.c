@@ -11,8 +11,8 @@ int main (int argc, char *argv[])
 	//unsigned int n = 100000;
 	unsigned long int n = 0;
 	unsigned long int h = 0;
-	unsigned long int minutes;
-	unsigned long int seconds;
+	unsigned long int execution_time_minutes;
+	unsigned long int execution_time_seconds;
 	
 	if (argc != 2){
 		printf("The time, in minutes, is expected as argument.\n");
@@ -20,26 +20,27 @@ int main (int argc, char *argv[])
 		exit(1);
 	}
 	
-	minutes = atoi(argv[1]);
-	seconds = minutes * 60;
+	execution_time_minutes = atoi(argv[1]);
+	execution_time_seconds = execution_time_minutes * 60;
 	
-	if (minutes <= 0){
+	if (execution_time_minutes <= 0){
 		printf("The time needs to be higher then 0.\n");
 		
 		exit(1);
 	}
 	
-	printf("Minutes of the execution: %d.\n", minutes);
-	
-	
+		
 	int  rank, comm_sz, len;
 	char hostname[MPI_MAX_PROCESSOR_NAME];
 	  
 	MPI_Init(&argc, &argv);
+	
+	double initial_time = MPI_Wtime();
+	
 	MPI_Comm_size(MPI_COMM_WORLD, &comm_sz);
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-
 	MPI_Get_processor_name(hostname, &len);
+	
 	printf ("Hello from process %d on node %s!\n", rank, hostname);	
 
 	double x, y, distance;
@@ -48,48 +49,45 @@ int main (int argc, char *argv[])
 	srand((unsigned)time(&t)+rank);
 	
 	int i = 0;
-	double begin = MPI_Wtime();
-	for(i = 0; i<100000; i++){
-		
-		x = ((double) ((double)rand()) / ((double)RAND_MAX));
-		y = ((double) ((double)rand()) / ((double)RAND_MAX));	
-		
-		//printf("x: %f ; y: %f\n",x,y);
-		
-		distance = sqrt( pow(x-0.5, 2) + pow(y-0.5, 2) );
-		//printf("Distance: %f\n", distance);
-		
-		if (distance <= 0.5){
-			h++;
-		}
-	}
-	double end = MPI_Wtime();
-
-	printf("Elapsed time is %f\n", end - begin);
+	double current_time = MPI_Wtime();
 	
+	while( current_time - initial_time < execution_time_seconds - 1 ){
+		for(i = 0; i<100000; i++){
+			n++;
+			
+			x = ((double) ((double)rand()) / ((double)RAND_MAX));
+			y = ((double) ((double)rand()) / ((double)RAND_MAX));	
+			
+			//printf("x: %f ; y: %f\n",x,y);
+			
+			distance = sqrt( pow(x-0.5, 2) + pow(y-0.5, 2) );
+			//printf("Distance: %f\n", distance);
+			
+			if (distance <= 0.5){
+				h++;
+			}
+		}
+		
+		current_time = MPI_Wtime();
+		printf("Elapsed time: %f\n", current_time - initial_time );
+	}
+		
 	
 	printf("hits: %d\n", h);
+	printf("numbers: %d\n", n);
 	
-	
-	//struct timeval stop, start;
-	//gettimeofday(&start, NULL);
-		
-	int h_total = 0;
+	unsigned long int h_total = 0;
 	MPI_Reduce(&h, &h_total, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
 	
-	int n_total = 0;
+	unsigned long int n_total = 0;
 	MPI_Reduce(&n, &n_total, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
-	
-	//gettimeofday(&stop, NULL);
-	//printf("took %lu\n", stop.tv_usec - start.tv_usec);
 	
 	
 	if (rank == 0){
 		printf("Total hits: %d\n", h_total);
 		printf("Total numbers: %d\n", n_total);
 		
-		//double pi = ((double)(4*h_total)/n_total);
-		double pi = ((double)(4*h_total)/(n*comm_sz));
+		double pi = ((double)(4*h_total)/n_total);
 	
 		printf("PI: %f\n", pi);
 	}
