@@ -73,14 +73,14 @@ int main (int argc, char *argv[])
 		}
 		
 		current_time = MPI_Wtime();
-		printf("Elapsed time: %f\n", current_time - initial_time );
+		//printf("Elapsed time: %f\n", current_time - initial_time );
 	}
 		
 	
 	printf("hits: %lu\n", h);
 	printf("numbers: %lu\n", n);
 	
-	
+	double reduce_begin = MPI_Wtime();
 	
 	unsigned long int h_total = 0;
 	MPI_Reduce(&h, &h_total, 1, MPI_UNSIGNED_LONG, MPI_SUM, 0, MPI_COMM_WORLD);
@@ -88,6 +88,7 @@ int main (int argc, char *argv[])
 	unsigned long int n_total = 0;
 	MPI_Reduce(&n, &n_total, 1, MPI_UNSIGNED_LONG, MPI_SUM, 0, MPI_COMM_WORLD);
 	
+	double reduce_end = MPI_Wtime();
 	
 	if (rank == 0){
 		printf("Total hits: %lu\n", h_total);
@@ -96,6 +97,8 @@ int main (int argc, char *argv[])
 		double pi = ((double)(4*h_total)/n_total);
 	
 		printf("PI: %f\n", pi);
+		
+		printf("Reduce time: %f\n", reduce_end - reduce_begin);
 	}
 	
 
