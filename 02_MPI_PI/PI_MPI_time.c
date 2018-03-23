@@ -5,10 +5,10 @@
 #include <mpi.h>
 #include <sys/time.h>
 
+#define ULINT_MAX 18446744070000000000
 
 int main (int argc, char *argv[])
 {
-	//unsigned int n = 100000;
 	unsigned long int n = 0;
 	unsigned long int h = 0;
 	unsigned long int execution_time_minutes;
@@ -54,6 +54,10 @@ int main (int argc, char *argv[])
 	while( current_time - initial_time < execution_time_seconds - 1 ){
 		for(i = 0; i<100000; i++){
 			n++;
+			if( n >= ULINT_MAX - 1 ){
+				printf("The number of points exceeded the maximum allowed for a unsigned long.\n");
+				exit(EXIT_FAILURE);
+			}
 			
 			x = ((double) ((double)rand()) / ((double)RAND_MAX));
 			y = ((double) ((double)rand()) / ((double)RAND_MAX));	
@@ -69,12 +73,12 @@ int main (int argc, char *argv[])
 		}
 		
 		current_time = MPI_Wtime();
-		printf("Elapsed time: %f\n", current_time - initial_time );
+		//printf("Elapsed time: %f\n", current_time - initial_time );
 	}
 		
 	
-	printf("hits: %d\n", h);
-	printf("numbers: %d\n", n);
+	printf("hits: %lu\n", h);
+	printf("numbers: %lu\n", n);
 	
 	unsigned long int h_total = 0;
 	MPI_Reduce(&h, &h_total, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
@@ -84,8 +88,8 @@ int main (int argc, char *argv[])
 	
 	
 	if (rank == 0){
-		printf("Total hits: %d\n", h_total);
-		printf("Total numbers: %d\n", n_total);
+		printf("Total hits: %lu\n", h_total);
+		printf("Total numbers: %lu\n", n_total);
 		
 		double pi = ((double)(4*h_total)/n_total);
 	
