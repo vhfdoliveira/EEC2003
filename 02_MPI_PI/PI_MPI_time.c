@@ -26,7 +26,7 @@ int main (int argc, char *argv[])
 	if (execution_time_minutes <= 0){
 		printf("The time needs to be higher then 0.\n");
 		
-		exit(1);
+		exit(EXIT_FAILURE);
 	}
 	
 		
@@ -73,7 +73,7 @@ int main (int argc, char *argv[])
 		}
 		
 		current_time = MPI_Wtime();
-		//printf("Elapsed time: %f\n", current_time - initial_time );
+		printf("Elapsed time: %f\n", current_time - initial_time );
 	}
 		
 	
