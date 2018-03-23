@@ -331,3 +331,55 @@ vim PI_MPI_time.c
 mpiicc PI_MPI_time.c -o PI_MPI_time
 srun -n32 -N2 --time=0-0:5 PI_MPI_time 10
 vim PI_MPI_time.c 
+ls
+cd 02_MPI_PI/
+ls
+vim PI_MPI_time.c 
+git commit .
+cd ..
+ls
+ls -al
+module load softwares/git/2.11.0-gnu-4.4 
+ls
+git commit .
+git commit . -m "test"
+git push
+git commit . -m "test"
+git add .
+git commit . -m "test"
+git push
+ls
+git pull
+module load softwares/git/2.11.0-gnu-4.4 
+git pull
+cd 02_MPI_PI/
+ls
+vim PI_MPI_time.c 
+mpiicc PI_MPI_time.c -o PI_MPI_time
+srun -N2 -n8 --time=0-0:2 PI_MPI_time 2
+srun -N2 -n2 --time=0-0:1 PI_MPI_time 1
+module load softwares/git/2.11.0-gnu-4.4 
+ls
+git pull
+ls
+cd 02_MPI_PI/
+vim test.c 
+mpiicc test.c -o test
+gcc test.c -o test
+vim test.c 
+exit
+ls
+cd 02_MPI_PI/
+vim test.c 
+mpiicc test.c -o test
+./teste
+./test
+vim test.c 
+mpiicc test.c -o test
+./test
+vim test.c 
+mpiicc test.c -o test
+./test
+vim test.c 
+mpiicc test.c -o test
+./test

@@ -11,10 +11,10 @@
 ~Msle0~/\<KMP_AFFINITY\>
 
 # Command Line History (newest to oldest):
+:x
+:w
 :q
 :wq
-:w
-:x
 :q!
 :!q
 
@@ -57,26 +57,30 @@
 	K
 
 # File marks:
-'0  78  1  ~/02_MPI_PI/PI_MPI_time.c
-'1  66  2  ~/02_MPI_PI/PI_MPI_time.c
-'2  54  16  ~/02_MPI_PI/PI_MPI_time.c
-'3  1  0  ~/02_MPI_PI/PI_MPI_time.c
-'4  27  41  ~/02_MPI_PI/PI_MPI_time.c
-'5  13  40  ~/02_MPI_PI/test.c
-'6  12  26  ~/02_MPI_PI/test.c
-'7  13  14  ~/02_MPI_PI/PI_MPI_time.c
-'8  8  12  ~/02_MPI_PI/anotações
-'9  30  1  ~/01_Tutoriais/02_OpenMP/hello_openmp.c
+'0  25  21  ~/02_MPI_PI/test.c
+'1  23  23  ~/02_MPI_PI/test.c
+'2  26  17  ~/02_MPI_PI/test.c
+'3  15  1  ~/02_MPI_PI/test.c
+'4  100  0  ~/02_MPI_PI/PI_MPI_time.c
+'5  78  1  ~/02_MPI_PI/PI_MPI_time.c
+'6  66  2  ~/02_MPI_PI/PI_MPI_time.c
+'7  54  16  ~/02_MPI_PI/PI_MPI_time.c
+'8  1  0  ~/02_MPI_PI/PI_MPI_time.c
+'9  27  41  ~/02_MPI_PI/PI_MPI_time.c
 
 # Jumplist (newest first):
--'  78  1  ~/02_MPI_PI/PI_MPI_time.c
+-'  25  21  ~/02_MPI_PI/test.c
+-'  23  1  ~/02_MPI_PI/test.c
+-'  26  2  ~/02_MPI_PI/test.c
+-'  15  1  ~/02_MPI_PI/test.c
+-'  100  0  ~/02_MPI_PI/PI_MPI_time.c
+-'  78  0  ~/02_MPI_PI/PI_MPI_time.c
 -'  66  1  ~/02_MPI_PI/PI_MPI_time.c
 -'  54  1  ~/02_MPI_PI/PI_MPI_time.c
 -'  1  0  ~/02_MPI_PI/PI_MPI_time.c
 -'  27  2  ~/02_MPI_PI/PI_MPI_time.c
 -'  13  1  ~/02_MPI_PI/PI_MPI_time.c
--'  13  40  ~/02_MPI_PI/test.c
--'  12  1  ~/02_MPI_PI/test.c
+-'  14  1  ~/02_MPI_PI/test.c
 -'  1  0  ~/02_MPI_PI/test.c
 -'  8  12  ~/02_MPI_PI/anotações
 -'  1  0  ~/02_MPI_PI/anotações
@@ -164,15 +168,37 @@
 -'  3  0  ~/01_Tutoriais/jobMPI.sh
 -'  4  0  ~/01_Tutoriais/jobMPI.sh
 -'  2  0  ~/01_Tutoriais/jobMPI.sh
--'  1  0  ~/01_Tutoriais/jobMPI.sh
--'  6  13  ~/01_Tutoriais/jobMPI.sh
--'  5  0  ~/01_Tutoriais/jobMPI.sh
--'  8  0  ~/01_Tutoriais/jobMPI.sh
 
 # History of marks within files (newest to oldest):
 
+> ~/02_MPI_PI/test.c
+	"	25	21
+	^	25	22
+	.	25	21
+	+	16	0
+	+	28	0
+	+	28	0
+	+	18	9
+	+	14	26
+	+	12	20
+	+	14	46
+	+	15	40
+	+	6	31
+	+	14	30
+	+	15	25
+	+	14	30
+	+	15	25
+	+	17	29
+	+	21	1
+	+	20	26
+	+	27	1
+	+	26	17
+	+	6	38
+	+	23	43
+	+	25	21
+
 > ~/02_MPI_PI/PI_MPI_time.c
-	"	78	1
+	"	100	0
 	.	68	0
 	+	12	14
 	+	13	0
@@ -193,19 +219,6 @@
 	+	68	26
 	+	54	0
 	+	68	0
-
-> ~/02_MPI_PI/test.c
-	"	13	40
-	^	13	41
-	.	13	40
-	+	14	0
-	+	17	0
-	+	17	0
-	+	16	9
-	+	12	26
-	+	10	20
-	+	12	46
-	+	13	40
 
 > ~/02_MPI_PI/anotações
 	"	8	12
