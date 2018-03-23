@@ -9,7 +9,7 @@ int main(int argc, char** argv )
 {
   
     Mat image;
-    image = imread( "/home/vhfdoliveira2/03_MPI_Histogram/02_Imagens/bird-780x520.jpg", 1 );
+    image = imread( "/home/vhfdoliveira2/03_MPI_Histogram/02_Imagens/bird-780x520.jpg", IMREAD_GRAYSCALE );
     
     if ( !image.data )
     {
@@ -18,6 +18,7 @@ int main(int argc, char** argv )
     }
     
     printf("Width: %d\nHeight: %d\n", image.size().width, image.size().height);
+    
     
     return 0;
 }
