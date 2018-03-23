@@ -29,7 +29,7 @@ int main(int argc, char** argv )
     
     // Calculate histogram
     Mat hist;
-    calcHist( &image, 1, 0, Mat(), hist, 1, &histSize, &ranges, uniform, accumulate );
+    calcHist( &image, 1, 0, Mat(), hist, 1, &histSize, ranges, uniform, accumulate );
     
     return 0;
 }
