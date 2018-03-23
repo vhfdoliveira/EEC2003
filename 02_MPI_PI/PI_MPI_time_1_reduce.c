@@ -55,7 +55,7 @@ int main (int argc, char *argv[])
 		for(i = 0; i<200000; i++){
 			n++;
 			if( n >= ULINT_MAX / comm_sz ){
-				printf("The number of points exceeded the maximum allowed for a unsigned long.\n");
+				printf("The number of points exceeded the maximum allowed for unsigned long.\n");
 				exit(EXIT_FAILURE);
 			}
 			
@@ -77,8 +77,8 @@ int main (int argc, char *argv[])
 	}
 		
 	
-	printf("hits: %lu\n", h);
-	printf("numbers: %lu\n", n);
+	printf("hits of process %d: %lu\n", rank, h);
+	printf("numbers of process %d: %lu\n", rank, n);
 	
 	
 	unsigned long int calc[2];
