@@ -12,7 +12,7 @@ int main (int argc, char *argv[])
 	printf("Unsigned long int: %d\n", sizeof(x));
 	printf("Unsigned int: %d\n", sizeof(y));
 	
-	printf("UINT_MAX: %d\n", UINT_MAX);
+	printf("UINT_MAX: %lu\n", UINT_MAX);
 
 
 	return 0;	
