@@ -1,0 +1,8 @@
+- plotar um histograma dos bounds de uma imagem qualquer;
+- dicas:
+  - imagem preto e branco (?)
+  - dividir a imagem de forma que cada processo trabalhe em uma parte da imagem
+  
+ 
+- pesquisar:
+  - bounds
