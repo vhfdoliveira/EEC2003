@@ -31,5 +31,14 @@ int main(int argc, char** argv )
     Mat hist;
     calcHist( &image, 1, 0, Mat(), hist, 1, &histSize, ranges, uniform, accumulate );
     
+    // Show the calculated histogram in command window
+    double total;
+    for( int h = 0; h < histSize; h++ )
+	 {
+		float binVal = hist.at<float>(h);
+		cout<<" "<<binVal;
+	 }
+	 
+    
     return 0;
 }
