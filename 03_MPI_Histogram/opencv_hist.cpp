@@ -4,12 +4,13 @@
 #include <opencv2/opencv.hpp>
 
 using namespace cv;
+using namespace std;
 
 int main(int argc, char** argv )
 {
   
     Mat image;
-    image = imread( "/home/vhfdoliveira2/03_MPI_Histogram/02_Imagens/bird-780x520.jpg", IMREAD_GRAYSCALE );
+    image = imread( "/home/vhfdoliveira2/03_MPI_Histogram/02_Imagens/black_white.jpg", IMREAD_GRAYSCALE );
     
     if ( !image.data )
     {
@@ -21,7 +22,7 @@ int main(int argc, char** argv )
     
     // Initialize parameters
     int histSize = 256;    // bin size
-    float range[] = { 0, 255 };
+    float range[] = { 0, 256 };
     const float *ranges[] = { range };
     
     bool uniform = true; 
@@ -39,6 +40,7 @@ int main(int argc, char** argv )
 		cout<<" "<<binVal;
 	 }
 	 
+    cout << "\n";
     
     return 0;
 }
