@@ -1,11 +1,21 @@
-- plotar um histograma dos bounds de uma imagem qualquer;
+- plotar um histograma dos bounds (valor de cada pixel) de uma imagem qualquer;
 - dicas:
   - imagem preto e branco (?)
   - dividir a imagem de forma que cada processo trabalhe em uma parte da imagem
   
  
-- pesquisar:
-  - bounds
+
+- o código deve ser openmp dentro de cada nó;
+- MPI entre nós
+
+- falso compartilhamento (entre threads)
+- vetor do tamanho de uma linha de cache (usando apenas primeiro elemento da linha)
+
+- utilizar variáveis privadas das threads
+
+- dica: apenas 1 thread comunicar com o MPI
+
+
   
 
 
