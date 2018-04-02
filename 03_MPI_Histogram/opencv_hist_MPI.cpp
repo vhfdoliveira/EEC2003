@@ -14,6 +14,17 @@ int main(int argc, char** argv )
 	
 	int  rank, comm_sz, len;
 	char hostname[MPI_MAX_PROCESSOR_NAME];
+	
+	Mat image;
+    image = imread( "/home/vhfdoliveira2/03_MPI_Histogram/02_Imagens/black_white.jpg", IMREAD_GRAYSCALE );
+    //image = imread( "/home/pattousai/DADOS/Linux/Dropbox/Mestrado/EEC2003_Computação_Alto_Desempenho/01_Aulas/03_MPI_Histogram/02_Imagens/Einstein_3400x3127.jpg", IMREAD_GRAYSCALE );
+    //image = imread( "/home/pattousai/DADOS/Linux/Dropbox/Mestrado/EEC2003_Computação_Alto_Desempenho/01_Aulas/03_MPI_Histogram/02_Imagens/black_white.jpg", IMREAD_GRAYSCALE );
+    
+    if ( !image.data )
+    {
+        printf("No image data \n");
+        return -1;
+    }
 	  
 	MPI_Init(&argc, &argv);
 	
@@ -25,19 +36,11 @@ int main(int argc, char** argv )
 	
 	printf ("Hello from process %d on node %s!\n", rank, hostname);
 	
+	//TODO: check when this division isn't integer
+	int local_rows = image.size().height / comm_sz;
 	
-    Mat image;
-    //image = imread( "/home/vhfdoliveira2/03_MPI_Histogram/02_Imagens/black_white.jpg", IMREAD_GRAYSCALE );
-    //image = imread( "/home/pattousai/DADOS/Linux/Dropbox/Mestrado/EEC2003_Computação_Alto_Desempenho/01_Aulas/03_MPI_Histogram/02_Imagens/Einstein_3400x3127.jpg", IMREAD_GRAYSCALE );
-    image = imread( "/home/pattousai/DADOS/Linux/Dropbox/Mestrado/EEC2003_Computação_Alto_Desempenho/01_Aulas/03_MPI_Histogram/02_Imagens/black_white.jpg", IMREAD_GRAYSCALE );
+	Mat local_image_MPI = image(Range(rank*local_rows, (rank+1)*local_rows), Range::all());
     
-    if ( !image.data )
-    {
-        printf("No image data \n");
-        return -1;
-    }
-    
-    //printf("Width: %d\nHeight: %d\n", image.size().width, image.size().height);
     
     // Initialize parameters
     int histSize = 256;    // bin size
@@ -48,37 +51,28 @@ int main(int argc, char** argv )
     bool accumulate = false;
     
     // Calculate histogram
-    Mat hist;
-    calcHist( &image, 1, 0, Mat(), hist, 1, &histSize, ranges, uniform, accumulate );
+    Mat local_hist;
+    calcHist( &local_image_MPI, 1, 0, Mat(), local_hist, 1, &histSize, ranges, uniform, accumulate );
     
     // Show the calculated histogram in command window
-    double total;
+    int local_binVal[histSize];
     for( int h = 0; h < histSize; h++ )
 	{
-		float binVal = hist.at<float>(h);
-		cout<<" "<<binVal;
+		local_binVal[h] = local_hist.at<float>(h);
 	}
 	
+	int global_binVal[histSize];
+	MPI_Reduce(local_binVal, global_binVal, histSize, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
 	
-	/*MPI_Reduce(local_histogram, histogram, 256, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
-	
-	FileStorage fs("histogram_file.yml", FileStorage::WRITE);
-	if (!fs.isOpened())
-	{
-		cout << "unable to open file storage!" << endl; 
-		return -1;
+	cout << "global hist: " << endl;
+	if( rank == 0 ){
+		for( int h = 0; h < histSize; h++ )
+		{
+			cout<<" "<<global_binVal[h];
+		}
+		cout << endl;
 	}
 	
-	fs << "my_histogram" << hist;
-	fs.release();
-	
-	
-	ofstream file;
-	file.open("histogram_file.csv");
-	file<< format(hist, Formatter::FMT_CSV) << endl;
-	file.close();
-	 
-    cout << endl;*/
     
     MPI_Finalize();
     
