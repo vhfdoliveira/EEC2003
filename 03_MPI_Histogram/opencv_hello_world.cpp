@@ -1,4 +1,4 @@
-//gcc opencv.c -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
+//mpiicc opencv.c -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
 
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
