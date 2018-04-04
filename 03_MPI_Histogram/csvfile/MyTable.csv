@@ -1,0 +1,8 @@
+"X";"VALUE"
+1;"String value"
+2;123
+3;1
+4;1.2
+5;"One more string"
+6;"""Escaped"""
+7;"=HYPERLINK(""https://playkey.net""; ""Playkey Service"")"
