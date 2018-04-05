@@ -1,0 +1,2 @@
+/var/tmp/slurmd.spool/job169777/slurm_script: line 15: syntax error near unexpected token `('
+/var/tmp/slurmd.spool/job169777/slurm_script: line 15: `	for width in (6400 12800);'

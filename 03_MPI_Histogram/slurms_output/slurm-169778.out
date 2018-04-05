@@ -1,0 +1,247 @@
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_1_threads_2_width_12800_height_12800_20180404_113803.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_1_threads_2_width_6400_height_3200_20180404_113804.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_1_threads_2_width_6400_height_6400_20180404_113804.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_1_threads_2_width_6400_height_12800_20180404_113805.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+outputs/output_nodes_1_threads_4_width_12800_height_12800_20180404_113807.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_1_threads_4_width_6400_height_3200_20180404_113807.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_1_threads_4_width_6400_height_6400_20180404_113808.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+outputs/output_nodes_1_threads_4_width_6400_height_12800_20180404_113809.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_1_threads_8_width_12800_height_12800_20180404_113810.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_1_threads_8_width_6400_height_3200_20180404_113810.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_1_threads_8_width_6400_height_6400_20180404_113811.csv
+Hello from process 0 of 1 on node r1i3n1!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_1_threads_8_width_6400_height_12800_20180404_113812.csv
+Hello from process 0 of 2 on node r1i3n1!
+Hello from process 1 of 2 on node r1i3n2!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_2_threads_2_width_12800_height_12800_20180404_113814.csv
+Hello from process 1 of 2 on node r1i3n2!
+Hello from process 0 of 2 on node r1i3n1!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_2_threads_2_width_6400_height_3200_20180404_113814.csv
+Hello from process 0 of 2 on node r1i3n1!
+Hello from process 1 of 2 on node r1i3n2!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_2_threads_2_width_6400_height_6400_20180404_113815.csv
+Hello from process 0 of 2 on node r1i3n1!
+Hello from process 1 of 2 on node r1i3n2!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_2_threads_2_width_6400_height_12800_20180404_113815.csv
+Hello from process 0 of 2 on node r1i3n1!
+Hello from process 1 of 2 on node r1i3n2!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_2_threads_4_width_12800_height_12800_20180404_113817.csv
+Hello from process 0 of 2 on node r1i3n1!
+Hello from process 1 of 2 on node r1i3n2!
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_2_threads_4_width_6400_height_3200_20180404_113817.csv
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Hello from process 0 of 2 on node r1i3n1!
+Hello from process 1 of 2 on node r1i3n2!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+outputs/output_nodes_2_threads_4_width_6400_height_6400_20180404_113818.csv
+Hello from process 1 of 2 on node r1i3n2!
+Hello from process 0 of 2 on node r1i3n1!
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_2_threads_4_width_6400_height_12800_20180404_113819.csv
+Hello from process 0 of 2 on node r1i3n1!
+Hello from process 1 of 2 on node r1i3n2!
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_2_threads_8_width_12800_height_12800_20180404_113820.csv
+Hello from process 0 of 2 on node r1i3n1!
+Hello from process 1 of 2 on node r1i3n2!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+outputs/output_nodes_2_threads_8_width_6400_height_3200_20180404_113821.csv
+Hello from process 1 of 2 on node r1i3n2!
+Hello from process 0 of 2 on node r1i3n1!
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_2_threads_8_width_6400_height_6400_20180404_113821.csv
+Hello from process 0 of 2 on node r1i3n1!
+Hello from process 1 of 2 on node r1i3n2!
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+outputs/output_nodes_2_threads_8_width_6400_height_12800_20180404_113822.csv
+[2] DAPL startup: RLIMIT_MEMLOCK too small
+Fatal error in MPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(784).................: 
+MPID_Init(1326).......................: channel initialization failed
+MPIDI_CH3_Init(141)...................: 
+dapl_rc_setup_all_connections_12(1388): generic failure with errno = 872614415
+getConnInfoKVS(849)...................: PMI_KVS_Get failed
+Fatal error in MPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(784).................: 
+MPID_Init(1326).......................: channel initialization failed
+MPIDI_CH3_Init(141)...................: 
+dapl_rc_setup_all_connections_12(1388): generic failure with errno = 872614415
+getConnInfoKVS(849)...................: PMI_KVS_Get failed
+srun: error: r1i3n2: task 1: Exited with exit code 1
+srun: error: r1i3n1: task 0: Exited with exit code 1
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 169778 ON r1i3n1 CANCELLED AT 2018-04-04T13:38:22 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

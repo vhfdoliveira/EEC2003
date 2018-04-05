@@ -1,0 +1,340 @@
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_12800_height_12800_20180404_222110.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_3200_20180404_222110.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_6400_20180404_222111.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_12800_20180404_222112.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 3 of 4 on node r1i0n9!
+outputs/output_nodes_4_threads_1_width_12800_height_12800_20180404_222114.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 3 of 4 on node r1i0n9!
+outputs/output_nodes_4_threads_1_width_6400_height_3200_20180404_222114.csv
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_6400_height_6400_20180404_222115.csv
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_6400_height_12800_20180404_222115.csv
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 6 of 8 on node r1i0n12!
+outputs/output_nodes_8_threads_1_width_12800_height_12800_20180404_222117.csv
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_3200_20180404_222118.csv
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_6400_20180404_222118.csv
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_12800_20180404_222119.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_12800_height_12800_20180404_222121.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_3200_20180404_222121.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_6400_20180404_222122.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_12800_20180404_222123.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_12800_height_12800_20180404_222124.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 2 of 4 on node r1i0n7!
+outputs/output_nodes_4_threads_1_width_6400_height_3200_20180404_222125.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_6400_height_6400_20180404_222125.csv
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_6400_height_12800_20180404_222126.csv
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_12800_height_12800_20180404_222128.csv
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_3200_20180404_222128.csv
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_6400_20180404_222129.csv
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_12800_20180404_222130.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_12800_height_12800_20180404_222131.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_3200_20180404_222132.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_6400_20180404_222132.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_12800_20180404_222133.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_12800_height_12800_20180404_222135.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 2 of 4 on node r1i0n7!
+outputs/output_nodes_4_threads_1_width_6400_height_3200_20180404_222135.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 3 of 4 on node r1i0n9!
+outputs/output_nodes_4_threads_1_width_6400_height_6400_20180404_222136.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+outputs/output_nodes_4_threads_1_width_6400_height_12800_20180404_222137.csv
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_12800_height_12800_20180404_222138.csv
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_3200_20180404_222139.csv
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_6400_20180404_222139.csv
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_12800_20180404_222140.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_12800_height_12800_20180404_222142.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_3200_20180404_222142.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_6400_20180404_222143.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_12800_20180404_222144.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_12800_height_12800_20180404_222145.csv
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_6400_height_3200_20180404_222146.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 3 of 4 on node r1i0n9!
+outputs/output_nodes_4_threads_1_width_6400_height_6400_20180404_222146.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_6400_height_12800_20180404_222147.csv
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 6 of 8 on node r1i0n12!
+outputs/output_nodes_8_threads_1_width_12800_height_12800_20180404_222149.csv
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_3200_20180404_222149.csv
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_6400_20180404_222150.csv
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+outputs/output_nodes_8_threads_1_width_6400_height_12800_20180404_222151.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_12800_height_12800_20180404_222153.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_3200_20180404_222153.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_6400_20180404_222154.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+outputs/output_nodes_2_threads_1_width_6400_height_12800_20180404_222154.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_12800_height_12800_20180404_222156.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 3 of 4 on node r1i0n9!
+outputs/output_nodes_4_threads_1_width_6400_height_3200_20180404_222156.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+outputs/output_nodes_4_threads_1_width_6400_height_6400_20180404_222157.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+outputs/output_nodes_4_threads_1_width_6400_height_12800_20180404_222158.csv
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 6 of 8 on node r1i0n12!
+outputs/output_nodes_8_threads_1_width_12800_height_12800_20180404_222200.csv
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_3200_20180404_222200.csv
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+outputs/output_nodes_8_threads_1_width_6400_height_6400_20180404_222201.csv
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+outputs/output_nodes_8_threads_1_width_6400_height_12800_20180404_222202.csv

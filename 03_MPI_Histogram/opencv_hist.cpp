@@ -4,6 +4,14 @@
 #include <opencv2/opencv.hpp>
 #include <fstream>
 
+#include <sstream>
+
+#define SSTR( x ) static_cast< std::ostringstream & >( \
+        ( std::ostringstream() << std::dec << x ) ).str()
+        
+#define DATE_FORMAT "%Y%m%d_%H%M%S"
+#define DATE_SIZE 20
+
 using namespace cv;
 using namespace std;
 
@@ -45,25 +53,7 @@ int main(int argc, char** argv )
 	cout << endl;
 	
 	
-	/*
-	FileStorage fs("histogram_file.yml", FileStorage::WRITE);
-	if (!fs.isOpened())
-	{
-		cout << "unable to open file storage!" << endl; 
-		return -1;
-	}
 	
-	fs << "my_histogram" << hist;
-	fs.release();
-	
-	
-	ofstream file;
-	file.open("histogram_file.csv");
-	file<< format(hist, Formatter::FMT_CSV) << endl;
-	file.close();
-	 
-    cout << endl;
-	*/
        
     return 0;
 }

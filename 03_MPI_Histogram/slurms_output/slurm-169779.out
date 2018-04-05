@@ -1,0 +1,2284 @@
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_1_threads_2_width_12800_height_12800_20180404_114738.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_1_threads_2_width_6400_height_3200_20180404_114738.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_1_threads_2_width_6400_height_6400_20180404_114739.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_1_threads_2_width_6400_height_12800_20180404_114739.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_1_threads_4_width_12800_height_12800_20180404_114741.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+outputs/output_nodes_1_threads_4_width_6400_height_3200_20180404_114741.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+outputs/output_nodes_1_threads_4_width_6400_height_6400_20180404_114742.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_1_threads_4_width_6400_height_12800_20180404_114743.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_1_threads_8_width_12800_height_12800_20180404_114744.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_1_threads_8_width_6400_height_3200_20180404_114745.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_1_threads_8_width_6400_height_6400_20180404_114745.csv
+Hello from process 0 of 1 on node r1i0n5!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_1_threads_8_width_6400_height_12800_20180404_114746.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_2_threads_2_width_12800_height_12800_20180404_114748.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_2_threads_2_width_6400_height_3200_20180404_114748.csv
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+outputs/output_nodes_2_threads_2_width_6400_height_6400_20180404_114748.csvThread 1 of 2 says: Hello World
+
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_2_threads_2_width_6400_height_12800_20180404_114749.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_2_threads_4_width_12800_height_12800_20180404_114751.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+outputs/output_nodes_2_threads_4_width_6400_height_3200_20180404_114751.csv
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Hello from process 1 of 2 on node r1i0n6!
+Hello from process 0 of 2 on node r1i0n5!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+outputs/output_nodes_2_threads_4_width_6400_height_6400_20180404_114752.csv
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+outputs/output_nodes_2_threads_4_width_6400_height_12800_20180404_114753.csv
+Thread 3 of 4 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_2_threads_8_width_12800_height_12800_20180404_114754.csv
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+outputs/output_nodes_2_threads_8_width_6400_height_3200_20180404_114755.csv
+Thread 7 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_2_threads_8_width_6400_height_6400_20180404_114755.csv
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_2_threads_8_width_6400_height_12800_20180404_114756.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_4_threads_2_width_12800_height_12800_20180404_114758.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+outputs/output_nodes_4_threads_2_width_6400_height_3200_20180404_114758.csvThread 1 of 2 says: Hello World
+
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_4_threads_2_width_6400_height_6400_20180404_114759.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_4_threads_2_width_6400_height_12800_20180404_114800.csv
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_4_threads_4_width_12800_height_12800_20180404_114801.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 3 of 4 on node r1i0n9!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+outputs/output_nodes_4_threads_4_width_6400_height_3200_20180404_114802.csvThread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_4_threads_4_width_6400_height_6400_20180404_114802.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 3 of 4 on node r1i0n9!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_4_threads_4_width_6400_height_12800_20180404_114803.csv
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_4_threads_8_width_12800_height_12800_20180404_114805.csv
+Thread 0 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+outputs/output_nodes_4_threads_8_width_6400_height_3200_20180404_114805.csv
+Thread 7 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 2 of 4 on node r1i0n7!
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+outputs/output_nodes_4_threads_8_width_6400_height_6400_20180404_114806.csv
+Thread 7 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+outputs/output_nodes_4_threads_8_width_6400_height_12800_20180404_114807.csv
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 2 of 8 on node r1i0n7!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+outputs/output_nodes_8_threads_2_width_12800_height_12800_20180404_114808.csv
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_8_threads_2_width_6400_height_3200_20180404_114809.csv
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_8_threads_2_width_6400_height_6400_20180404_114809.csvThread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 1 of 8 on node r1i0n6!
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+outputs/output_nodes_8_threads_2_width_6400_height_12800_20180404_114810.csvThread 1 of 2 says: Hello World
+Thread 0 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+Thread 1 of 2 says: Hello World
+
+Thread 1 of 2 says: Hello World
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_8_threads_4_width_12800_height_12800_20180404_114812.csv
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 0 of 8 on node r1i0n5!
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+outputs/output_nodes_8_threads_4_width_6400_height_3200_20180404_114812.csv
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+outputs/output_nodes_8_threads_4_width_6400_height_6400_20180404_114813.csvThread 1 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 3 of 8 on node r1i0n9!
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+outputs/output_nodes_8_threads_4_width_6400_height_12800_20180404_114814.csvThread 0 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 0 of 4 says: Hello World
+Thread 1 of 4 says: Hello World
+
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Thread 2 of 4 says: Hello World
+Thread 3 of 4 says: Hello World
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+outputs/output_nodes_8_threads_8_width_12800_height_12800_20180404_114815.csvThread 1 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 4 of 8 on node r1i0n10!
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+outputs/output_nodes_8_threads_8_width_6400_height_3200_20180404_114816.csv
+Thread 0 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+outputs/output_nodes_8_threads_8_width_6400_height_6400_20180404_114816.csv
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Hello from process 5 of 8 on node r1i0n11!
+Hello from process 0 of 8 on node r1i0n5!
+Hello from process 7 of 8 on node r1i0n14!
+Hello from process 3 of 8 on node r1i0n9!
+Hello from process 2 of 8 on node r1i0n7!
+Hello from process 4 of 8 on node r1i0n10!
+Hello from process 6 of 8 on node r1i0n12!
+Hello from process 1 of 8 on node r1i0n6!
+Thread 0 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 0 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 1 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 2 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 4 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 6 of 8 says: Hello World
+Thread 5 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 7 of 8 says: Hello World
+Thread 3 of 8 says: Hello World
+outputs/output_nodes_8_threads_8_width_6400_height_12800_20180404_114817.csv
+Thread 2 of 8 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+outputs/output_nodes_2_threads_16_width_12800_height_12800_20180404_114819.csv
+Thread 10 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+outputs/output_nodes_2_threads_16_width_6400_height_3200_20180404_114819.csv
+Thread 0 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Hello from process 1 of 2 on node r1i0n6!
+Hello from process 0 of 2 on node r1i0n5!
+Thread 0 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+outputs/output_nodes_2_threads_16_width_6400_height_6400_20180404_114820.csv
+Thread 0 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+outputs/output_nodes_2_threads_16_width_6400_height_12800_20180404_114821.csv
+Thread 3 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+outputs/output_nodes_2_threads_32_width_12800_height_12800_20180404_114822.csv
+Thread 0 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 16 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+outputs/output_nodes_2_threads_32_width_6400_height_3200_20180404_114823.csv
+Thread 0 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+outputs/output_nodes_2_threads_32_width_6400_height_6400_20180404_114823.csv
+Thread 0 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Hello from process 0 of 2 on node r1i0n5!
+Hello from process 1 of 2 on node r1i0n6!
+Thread 0 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+outputs/output_nodes_2_threads_32_width_6400_height_12800_20180404_114824.csv
+Thread 0 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+outputs/output_nodes_4_threads_16_width_12800_height_12800_20180404_114826.csv
+Thread 0 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+outputs/output_nodes_4_threads_16_width_6400_height_3200_20180404_114826.csvThread 2 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+
+Thread 6 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+outputs/output_nodes_4_threads_16_width_6400_height_6400_20180404_114827.csv
+Thread 0 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 3 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 12 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 2 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 1 of 16 says: Hello World
+Thread 14 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 13 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 11 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 0 of 16 says: Hello World
+Thread 8 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 6 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+Thread 10 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Thread 4 of 16 says: Hello World
+Thread 5 of 16 says: Hello World
+Thread 9 of 16 says: Hello World
+Thread 7 of 16 says: Hello World
+outputs/output_nodes_4_threads_16_width_6400_height_12800_20180404_114828.csvThread 7 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+
+Thread 6 of 16 says: Hello World
+Thread 3 of 16 says: Hello World
+Thread 15 of 16 says: Hello World
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+outputs/output_nodes_4_threads_32_width_12800_height_12800_20180404_114829.csv
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+Hello from process 2 of 4 on node r1i0n7!
+Thread 0 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+outputs/output_nodes_4_threads_32_width_6400_height_3200_20180404_114830.csv
+Thread 16 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+outputs/output_nodes_4_threads_32_width_6400_height_6400_20180404_114830.csv
+Thread 0 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Hello from process 2 of 4 on node r1i0n7!
+Hello from process 0 of 4 on node r1i0n5!
+Hello from process 3 of 4 on node r1i0n9!
+Hello from process 1 of 4 on node r1i0n6!
+Thread 0 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 0 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 18 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 1 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 17 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 29 of 32 says: Hello World
+Thread 31 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 14 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 19 of 32 says: Hello World
+Thread 11 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 24 of 32 says: Hello World
+Thread 13 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 10 of 32 says: Hello World
+Thread 15 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 30 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 8 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 20 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 26 of 32 says: Hello World
+Thread 9 of 32 says: Hello World
+Thread 7 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 6 of 32 says: Hello World
+Thread 23 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 27 of 32 says: Hello World
+Thread 25 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 21 of 32 says: Hello World
+Thread 5 of 32 says: Hello World
+Thread 22 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 12 of 32 says: Hello World
+Thread 28 of 32 says: Hello World
+Thread 4 of 32 says: Hello World
+Thread 2 of 32 says: Hello World
+Thread 3 of 32 says: Hello World
+Thread 16 of 32 says: Hello World
+outputs/output_nodes_4_threads_32_width_6400_height_12800_20180404_114831.csv
