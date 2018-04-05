@@ -9,12 +9,12 @@
 for i in {1..5};
 do
 		
-	srun --nodes=1 --ntasks=1 opencv_mpi "02_Imagens/Einstein_12800x12800.jpg"
+	srun --nodes=1 --ntasks=1 opencv_serial "02_Imagens/Einstein_12800x12800.jpg"
 	
 	width=6400		
 	for height in 3200 6400 12800;
 	do
-		srun --nodes=1 --ntasks=1 opencv_mpi "02_Imagens/Einstein_"$width"x"$height".jpg"
+		srun --nodes=1 --ntasks=1 opencv_serial "02_Imagens/Einstein_"$width"x"$height".jpg"
 	done
 
 	
