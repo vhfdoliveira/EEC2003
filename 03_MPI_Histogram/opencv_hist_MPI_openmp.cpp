@@ -41,8 +41,7 @@ int main(int argc, char** argv )
         return -1;
     }
 	  
-	MPI_Init(&argc, &argv);
-	
+	MPI_Init(&argc, &argv);	
 	double initial_time = MPI_Wtime();
 	
 	MPI_Comm_size(MPI_COMM_WORLD, &comm_sz);
@@ -98,12 +97,18 @@ int main(int argc, char** argv )
 			local_binVal[h] = local_hist.at<float>(h);
 		}
 		
-		#pragma omp critical
+		/*#pragma omp critical
 		{
 			for( int h = 0; h < histSize; h++ )
 			{
 				total_binVal[h] += local_binVal[h];
 			}
+		}*/
+		
+		#pragma omp for reduction(+:total_binVal[:256])
+		for( int h = 0; h < histSize; h++ )
+		{
+			total_binVal[h] = local_binVal[h];
 		}
 	
 	}
