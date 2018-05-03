@@ -1,0 +1,9 @@
+
+ferramentas perfilagem
+
+gratuitas: TAU ; HPCtoolkit
+
+paga: parallel studio
+
+
+usar o parallel studio para analisar o comportamento do histograma híbrido

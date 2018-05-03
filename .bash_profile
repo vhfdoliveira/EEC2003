@@ -10,3 +10,5 @@ fi
 PATH=$PATH:$HOME/bin
 
 export PATH
+
+module load softwares/git/2.11.0-gnu-4.4

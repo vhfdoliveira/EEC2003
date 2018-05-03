@@ -1,0 +1,37 @@
+anotações 27/04:
+
+- modificar o PI para usar tipos de dados derivados
+
+
+exemplos de uso de tipos de dados derivados:
+
+http://www.linux-mag.com/id/1332/
+
+
+ótimos exemplos:
+
+http://mpi-forum.org/docs/mpi-1.1/mpi-11-html/node70.html#Figure4
+
+
+Boas explicações, mas sem exemplos:
+http://pages.tacc.utexas.edu/~eijkhout/pcse/html/mpi-data.html
+
+
+
+- tarefa de casa:
+	- multiplicação de matriz (matriz por vetor)
+	- MPI_Test => nao bloqueante
+	
+	- vantagem de dividir as entradas: é possível realizar computação antes da comunicação
+		- não entendi
+
+	- matriz por vetor:
+		1º passo enviar o x para todos os processos e realizar a computação
+		
+		2º passo computar enquanto não recebe o vetor x inteiro
+		
+	- por enquanto, dividir sempre por linhas
+		- posteriormente, usar tipo de dado derivado para dividir por coluna
+
+
+5x2 x 5x2

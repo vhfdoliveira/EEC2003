@@ -1,0 +1,20 @@
+dicas:
+
+- para análises de desempenho, maximar o uso dos threads no mesmo nó
+- sempre usar --exclusive ==> já mapeado
+- verificar uso da memória
+
+
+tarefa:
+
+- executar os programas realizados testando diversos compiladores e diversas flags
+
+- compiladores: gcc, icc, pgi (confirmar nome)
+- versões: verificar disponibilidades
+- otimizações: o0, o1, o2, o3
+
+
+- gráficos junto da seção do relatório de cada tarefa
+
+- dica: normalizar de acordo com uma configuração específica
+
