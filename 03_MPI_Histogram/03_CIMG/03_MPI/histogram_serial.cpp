@@ -10,7 +10,7 @@
 #include <jpeglib.h>
 #include <jerror.h>
 
-#include "CImg_latest/CImg-2.2.2/CImg.h"
+#include "../CImg_latest/CImg-2.2.2/CImg.h"
 using namespace cimg_library;
 
 #include <iostream>
