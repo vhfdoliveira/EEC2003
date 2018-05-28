@@ -1,0 +1,195 @@
+ARRAY_SIZE: 131072
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.0 exceeded memory limit (8324628 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.0 ON r1i0n0 CANCELLED AT 2018-05-24T11:06:57 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 262144
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.1 exceeded memory limit (8392896 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.1 ON r1i0n0 CANCELLED AT 2018-05-24T11:08:37 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 524288
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.2 exceeded memory limit (8259912 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.2 ON r1i0n0 CANCELLED AT 2018-05-24T11:10:01 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 1048576
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.3 exceeded memory limit (8449496 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.3 ON r1i0n0 CANCELLED AT 2018-05-24T11:11:02 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Exceeded job memory limit
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 2097152
+simul == true
+slurmstepd: error: Step 234741.4 exceeded memory limit (13090388 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.4 ON r1i0n0 CANCELLED AT 2018-05-24T11:11:06 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Exceeded job memory limit
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 131072
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.5 exceeded memory limit (8333884 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.5 ON r1i0n0 CANCELLED AT 2018-05-24T11:12:51 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 262144
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.6 exceeded memory limit (8380864 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.6 ON r1i0n0 CANCELLED AT 2018-05-24T11:14:31 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 524288
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.7 exceeded memory limit (8458492 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.7 ON r1i0n0 CANCELLED AT 2018-05-24T11:15:59 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 1048576
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.8 exceeded memory limit (8435684 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.8 ON r1i0n0 CANCELLED AT 2018-05-24T11:17:00 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 2097152
+simul == true
+slurmstepd: error: Step 234741.9 exceeded memory limit (18412492 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.9 ON r1i0n0 CANCELLED AT 2018-05-24T11:17:06 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Exceeded job memory limit
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 131072
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.10 exceeded memory limit (8315728 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.10 ON r1i0n0 CANCELLED AT 2018-05-24T11:18:51 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 262144
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.11 exceeded memory limit (8374048 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.11 ON r1i0n0 CANCELLED AT 2018-05-24T11:20:31 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 524288
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.12 exceeded memory limit (8461272 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.12 ON r1i0n0 CANCELLED AT 2018-05-24T11:21:58 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 1048576
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.13 exceeded memory limit (8451660 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.13 ON r1i0n0 CANCELLED AT 2018-05-24T11:22:59 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 2097152
+simul == true
+slurmstepd: error: Step 234741.14 exceeded memory limit (13053520 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.14 ON r1i0n0 CANCELLED AT 2018-05-24T11:23:03 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Exceeded job memory limit
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 131072
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.15 exceeded memory limit (8324908 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.15 ON r1i0n0 CANCELLED AT 2018-05-24T11:24:48 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 262144
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.16 exceeded memory limit (8386196 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.16 ON r1i0n0 CANCELLED AT 2018-05-24T11:26:28 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 524288
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.17 exceeded memory limit (8259836 > 8243200), being killed
+slurmstepd: error: Exceeded job memory limit
+slurmstepd: error: *** STEP 234741.17 ON r1i0n0 CANCELLED AT 2018-05-24T11:27:53 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 1048576
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.18 exceeded memory limit (8444200 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.18 ON r1i0n0 CANCELLED AT 2018-05-24T11:28:54 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 2097152
+simul == true
+slurmstepd: error: Step 234741.19 exceeded memory limit (13211220 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.19 ON r1i0n0 CANCELLED AT 2018-05-24T11:28:58 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Exceeded job memory limit
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 131072
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.20 exceeded memory limit (8326292 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.20 ON r1i0n0 CANCELLED AT 2018-05-24T11:30:43 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 262144
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.21 exceeded memory limit (8382996 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.21 ON r1i0n0 CANCELLED AT 2018-05-24T11:32:23 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 524288
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.22 exceeded memory limit (8282984 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.22 ON r1i0n0 CANCELLED AT 2018-05-24T11:33:47 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 1048576
+simul == true
+after allocation of image_simul
+slurmstepd: error: Step 234741.23 exceeded memory limit (8258512 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.23 ON r1i0n0 CANCELLED AT 2018-05-24T11:34:45 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Exceeded job memory limit
+srun: error: r1i0n0: task 0: Killed
+ARRAY_SIZE: 2097152
+simul == true
+slurmstepd: error: Step 234741.24 exceeded memory limit (13266516 > 8243200), being killed
+slurmstepd: error: *** STEP 234741.24 ON r1i0n0 CANCELLED AT 2018-05-24T11:34:49 ***
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: r1i0n0: task 0: Killed

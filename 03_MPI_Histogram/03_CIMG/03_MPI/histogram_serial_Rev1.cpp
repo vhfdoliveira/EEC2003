@@ -31,43 +31,65 @@ using namespace std;
         
 #define DATE_FORMAT "%Y%m%d_%H%M%S"
 #define DATE_SIZE 20
-#define ARRAY_SIZE 128000
 
 
 /// Establish the number of bins
 const int HIST_SIZE = 256;
 unsigned long int hist[HIST_SIZE];
 
+unsigned int ARRAY_SIZE;
+
 // Main procedure
 //----------------
 int main(int argc, char** argv) {
 	
+	time_t begin = time(NULL);
+	
 	int rank, comm_sz;
-	int width, height;
+	unsigned int width, height;
 	
 	int nodes = 0;	
 	bool simul = false;
 	bool output = false;
+	int power;
 	
-	if( (argc < 2) or (argc > 3) ){
-		cout << "Usage: <histogram_serial ImageToLoad> or "
-			 << "<histogram_serial ImageToLoad number_of_nodes>" << endl;
+	if( (argc < 2) or (argc > 5) ){
+		cout << "Usage: " << endl << "<histogram_serial image_to_load> or " << endl
+			 << "<histogram_serial image_to_load size_of_image> or " << endl
+			 << "<histogram_serial image_to_load size_of_image number_of_nodes> or " << endl
+			 << "<histogram_serial image_to_load size_of_image number_of_nodes output>" << endl;
 		return -1;
     }
     
-    if( argc == 3 ){
-		nodes = atoi(argv[2]);
+    if( argc >= 3 ){
+		power = atoi(argv[2]);
+		if( power > 64 ){
+			cout << "The size of the simulated image must not exceed 2^64." << endl;
+			return -1;
+		}
+		if( power % 2 > 0 ){
+			cout << "The size of the simulated image must be an even power of 2." << endl;
+			return -1;
+		}
+		
+		ARRAY_SIZE = pow( 2, power/2 );
+		cout << "ARRAY_SIZE: " << ARRAY_SIZE << endl;
 	}
 	
-	if( argc == 4 ){
-		output = atoi(argv[3]);
+	if( argc >= 4 ){
+		nodes = atoi(argv[3]);
 	}
+	
+	if( argc >= 5 ){
+		output = atoi(argv[4]);
+	}
+	
 	
 	if( strcmp( argv[1], "0" ) == 0 ){
 		simul = true;
 	}
 	
-	//CImg<unsigned char> image(argv[1]);
+	
 	CImg<unsigned char> image_cimg;
 	unsigned char **image_simul;
 	
@@ -78,7 +100,7 @@ int main(int argc, char** argv) {
 		cout << "simul == true" << endl;
 		
 		image_simul = new unsigned char*[ARRAY_SIZE];
-		for(int i = 0; i < ARRAY_SIZE; i++){
+		for(unsigned int i = 0; i < ARRAY_SIZE; i++){
 			image_simul[i] = new unsigned char[ARRAY_SIZE];
 		}
 		
@@ -87,14 +109,18 @@ int main(int argc, char** argv) {
 		time_t t;		
 		srand((unsigned)time(&t));
 		
-		for(int i = 0; i < ARRAY_SIZE; i++){
-			for(int j = 0; j < ARRAY_SIZE; j++){
+		for(unsigned int i = 0; i < ARRAY_SIZE; i++){
+			for(unsigned int j = 0; j < ARRAY_SIZE; j++){
 				image_simul[i][j] = rand() % 256;
 			}
 		}
 		
 		cout << "after initialization of image_simul" << endl;
 	}
+	
+	time_t initialization_time = time(NULL) - begin;
+	
+	cout << "Initialization time: " << initialization_time << endl;
 	
 	
 	MPI_Init(&argc, &argv);
@@ -118,10 +144,8 @@ int main(int argc, char** argv) {
 	cout << "Width: " << width << endl;
 	cout << "Height: " << height << endl;
 	
-	for(int x = 0; x < width; x++)
-	{
-		for (int y = 0; y < height; y++)
-		{
+	for(unsigned int x = 0; x < width; x++){
+		for(unsigned int y = 0; y < height; y++){
 			unsigned char R;
 			if( !simul ){
 				R = (unsigned char)image_cimg(x,y,0,0);
@@ -147,13 +171,13 @@ int main(int argc, char** argv) {
 	}
 	
 	cout << endl << endl << "Sum of all histogram elements: " << sum << endl;	
-	cout << endl << "Total pixels: " << (unsigned long) width * height << endl;
+	cout << "Total pixels: " << (unsigned long) width * height << endl;
 	
 	
 	MPI_Finalize();
 	
 	
-	for (int i = 0; i < ARRAY_SIZE; ++i)
+	for (unsigned int i = 0; i < ARRAY_SIZE; ++i)
 		delete [] image_simul[i];
 	delete [] image_simul;
 	
@@ -165,11 +189,10 @@ int main(int argc, char** argv) {
 		strftime(date, sizeof(date), DATE_FORMAT, localtime(&now));
 		
 		string csv_name = string("outputs/") + string("output");
-		csv_name += "_nodes_" + SSTR(1);
+		csv_name += "_nodes_" + SSTR(nodes);
 		csv_name += "_processes_" + SSTR(comm_sz);
 		csv_name += "_threads_" + SSTR(1);
-		csv_name += "_width_" + SSTR(width);
-		csv_name += "_height_" + SSTR(height);
+		csv_name += "_size_" + SSTR(power);
 		csv_name += "_" + string(date);		
 		csv_name += ".csv";
 		
@@ -186,6 +209,7 @@ int main(int argc, char** argv) {
 		csv << "threads" << separator << 1 << endl;
 		csv << "width" << separator << width << endl;
 		csv << "height" << separator << height << endl;
+		csv << "size" << separator << power << endl;
 		csv << "bin" << separator << "count" << endl;
 		
 		for( int h = 0; h < HIST_SIZE; h++ ){

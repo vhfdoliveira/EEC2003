@@ -5,19 +5,18 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=120G
 #SBATCH --exclusive
-#SBATCH --time=0-30:0
+#SBATCH --time=0-20:0
 
 
 for i in {1..3};
 do
 		
-	for size in 34 36 38 40 42;
+	for size in 30 32 34 36;
 	do
-		mpirun histogram_MPI 0 $size 
+		srun --nodes=1 --ntasks=1 histogram_serial 0 $size 1 1
 	done
 	
 done
 
 
 
-mpirun histogram_MPI bird-780x520.jpg
