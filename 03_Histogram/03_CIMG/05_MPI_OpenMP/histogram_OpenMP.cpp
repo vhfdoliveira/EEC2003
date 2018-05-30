@@ -4,7 +4,8 @@
  * module load libraries/openmpi/1.4-gnu-7.1
  * 
  * Compile with:
- * mpic++ -o histogram_MPI histogram_MPI_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+ * mpic++ -o histogram_MPI histogram_MPI_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+ * g++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
  * 
  * Use:
  * mpirun --nodes=2 --time=0-0:5 histogram_MPI 0 34 2 0
@@ -151,6 +152,7 @@ int main(int argc, char** argv) {
 	{
 		if( omp_get_thread_num() == 0 ){ 
 			nthreads = omp_get_num_threads();
+			cout << endl << "Number of threads is: " << nthreads << endl;
 		}
 		
 		#pragma omp for reduction(+:hist[:256])

@@ -1,676 +1,3 @@
-module load softwares/git/2.11.0-gnu-4.4 
-git pull
-cd 02_MPI_PI/
-ls
-vim PI_MPI_time.c 
-mpiicc PI_MPI_time.c -o PI_MPI_time
-srun -N2 -n8 --time=0-0:2 PI_MPI_time 2
-srun -N2 -n2 --time=0-0:1 PI_MPI_time 1
-module load softwares/git/2.11.0-gnu-4.4 
-ls
-git pull
-ls
-cd 02_MPI_PI/
-vim test.c 
-mpiicc test.c -o test
-gcc test.c -o test
-vim test.c 
-exit
-ls
-cd 02_MPI_PI/
-vim test.c 
-mpiicc test.c -o test
-./teste
-./test
-vim test.c 
-mpiicc test.c -o test
-./test
-vim test.c 
-mpiicc test.c -o test
-./test
-vim test.c 
-mpiicc test.c -o test
-./test
-ls
-module load softwares/git/2.11.0-gnu-4.4 
-git pull
-git commit . -m "b"
-git pull
-ls
-cd 02_MPI_PI/
-ls
-rm test.c 
-git commit . -m "c"
-cd ..
-git commit . -m "c"
-git pull
-git rm 02_MPI_PI/test.c
-git pull
-git status
-git pull
-git commit
-git commit -m "k"
-git merge
-git pul
-git pull
-ls
-cd 02_MPI_PI/
-ls
-vim PI_MPI_time.c 
-ls
-mpiicc PI_MPI_time.c -o PI_MPI_time
-./PI_MPI_time 
-srun -N2 -n2 --time=0-0:1 PI_MPI_time 1
-module load softwares/git/2.11.0-gnu-4.4 
-git pull
-cd 02_MPI_PI/
-ls
-vim PI_MPI_time.c 
-mpiicc PI_MPI_time.c -o PI_MPI_time
-srun -N2 -n2 --time=0-0:1 PI_MPI_time 1
-srun -N2 -n2 --time=0-0:1 PI_MPI_time 2
-srun -N2 -n2 --time=0-0:2 PI_MPI_time 2
-module load softwares/git/2.11.0-gnu-4.4 
-git pull
-ls
-cd 02_MPI_PI/
-mpiicc PI_MPI_time.c -o PI_MPI_time
-srun -N2 -n3 --time=0-0:2 PI_MPI_time 2
-srun -N2 -n16 --time=0-0:5 PI_MPI_time 5
-module load softwares/git/2.11.0-gnu-4.4 
-git pull
-cd 02_MPI_PI/
-ls
-mpiicc PI_MPI_time_2_reduces.c -o PI_MPI_time_2_reduces
-srun -N2 -n3 --time=0-0:1 PI_MPI_time 1
-ls
-vim PI_MPI_time_2_reduces.c 
-srun -N2 -n3 --time=0-0:1 PI_MPI_time_2_reduces 1
-module load softwares/git/2.11.0-gnu-4.4 
-git pull
-cd 02_MPI_PI/
-ls
-srun -N1 -n4 --time=0-0:1 PI_MPI_time_2_reduces 1
-srun -N3 -n4 --time=0-0:1 PI_MPI_time_2_reduces 1
-srun -N2 -n4 --time=0-0:1 PI_MPI_time_2_reduces 1
-srun -N3 -n4 --time=0-0:1 PI_MPI_time_2_reduces 1
-cd 02_MPI_PI/
-srun -N3 -n4 --time=0-0:1 PI_MPI_time_2_reduces 1
-srun -N1 -n4 --time=0-0:1 PI_MPI_time_2_reduces 1
-srun -N1 -n32 --time=0-0:1 PI_MPI_time_2_reduces 1
-srun -N3 -n32 --time=0-0:1 PI_MPI_time_2_reduces 1
-cd 02_MPI_PI/
-srun -N3 -n32 --time=0-0:1 PI_MPI_time_2_reduces 1
-srun -N -n16 --time=0-0:1 PI_MPI_time_2_reduces 1
-srun -N1 -n32 --time=0-0:1 PI_MPI_time_2_reduces 1
-srun -N1 -n16 --time=0-0:1 PI_MPI_time_2_reduces 1
-module load softwares/git/2.11.0-gnu-4.4 
-git pull
-cd 02_MPI_PI/
-ls
-mpiicc PI_MPI_time_1_reduce.c -o PI_MPI_time_1_reduce
-srun -N1 -n16 --time=0-0:1 PI_MPI_time_1_reduce 1
-srun -N3 -n96 --time=0-0:1 PI_MPI_time_1_reduce 1
-srun -N3 -n32 --time=0-0:1 PI_MPI_time_1_reduce 1
-module avail
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-ls
-git pull
-module load softwares/git/2.11.0-gnu-4.4 
-git pull
-ls
-cd 03_MPI_Histogram/
-ls
-ping www.google.com.br
-ifconfig
-ip
-ip -d
-ping www.google.com.br
-ls
-git pull
-ls
-mpiicc opencv_hello_world.c -o opencv_hello_world
-gcc opencv_hello_world.c -o opencv_hello_world.c 
-g++ opencv_hello_world.c -o opencv_hello_world.c 
-git pull
-g++ opencv_hello_world.c -o opencv_hello_world.c 
-g++ opencv_hello_world.cpp -o opencv_hello_world
-git pull
-ls
-g++ opencv_hello_world.cpp -o opencv_hello_world
-ls
-git pull
-ls
-cd ..
-ls
-cd 03_MPI_Histogram/
-ls
-cp opencv_hello_world.cpp opencv_hello_world.c
-rm opencv_hello_world.c
-module avail
-cd ..
-cd 02_MPI_PI/
-ls
-git pull
-ls
-mpiicc PI_MPI_time_1_reduce.cpp -o PI_MPI_time_1_reduce
-srun -N1 -n1 --time=0-0:1 PI_MPI_time_1_reduce 1
-ls
-cd ..
-cd 03_MPI_Histogram/
-ls
-mpiicc opencv_hello_world.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv 
-g++ opencv_hello_world.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv
-git pull
-ls
-cd 02_Imagens/
-ls
-cd ..
-vim opencv_hello_world.cpp 
-cd 02_Imagens/
-pwd
-cd ..
-git pull
-ls
-mpiicc opencv_hello_world.cpp -o opencv
-mpiicc opencv_hello_world.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv 
-git pull
-mpiicc opencv_hello_world.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv 
-python3
-module load softwares/python/3.6.1-gnu-4.8 
-python3
-module avail
-git pull
-ls
-git pull
-ls
-mpiicc opencv_hist.cpp -o opencv_hist `pkg-config --libs --cflags opencv` -ldl -lm
-git pull
-mpiicc opencv_hist.cpp -o opencv_hist `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv_hist 
-git pull
-mpiicc opencv_hist.cpp -o opencv_hist `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv_hist 
-ls
-cd 02_Imagens/
-ls
-git pull
-ls
-cd ..
-ls
-mpiicc opencv_hist.cpp -o opencv_hist `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv_hist 
-mpiicc opencv_hist.cpp -o opencv_hist `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv_hist 
-mpiicc opencv_hist.cpp -o opencv_hist `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv_hist 
-mpiicc opencv_hist.cpp -o opencv_hist `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv_hist 
-module avail
-g++ opencv_hist.cpp -o opencv_hist `pkg-config --libs --cflags opencv` -ldl -lm
-mpiicc opencv_hist.cpp -o opencv_hist `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv_hist 
-ls
-module load softwares/git/2.11.0-gnu-4.4 
-cd 03_MPI_Histogram/
-ls
-git commit opencv_hello_world.cpp opencv_hist.cpp -m "a"
-git push origin master
-ls
-cd 03_MPI_Histogram/
-ls
-vim anotações\ 23.03 
-module load softwares/git/2.11.0-gnu-4.4 
-git pull
-ls
-vim anotações\ 23.03 
-git commit opencv_hello_world.cpp -m "a"
-exit
-ls
-module load softwares/git/2.11.0-gnu-4.4 
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-cd 03_MPI_Histogram/
-git pull
-rm opencv
-git pull
-ls
-mpiicc opencv_hist_MPI.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv
-srun -N 2 -n 2 --time=0-0:5 opencv
-mpiicc opencv_hist_MPI.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-srun -N 2 -n 2 --time=0-0:5 opencv
-srun -N 2 -n 3 --time=0-0:5 opencv
-srun -N 2 -n 10 --time=0-0:5 opencv
-srun -N 5 -n 4 --time=0-0:5 opencv
-mpiicc opencv_hist_MPI.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-srun -N 2 -n 2 --time=0-0:5 opencv
-mpiicc opencv_hist.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-./opencv
-mpiicc opencv_hist_MPI.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-srun -N 2 -n 2 --time=0-0:5 opencv
-srun -N 4 -n 4 --time=0-0:5 opencv
-srun -N 7 -n 7 --time=0-0:5 opencv
-srun -N 4 -n 4 --time=0-0:5 opencv
-mpiicc opencv_hist_MPI.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-srun -N 4 -n 4 --time=0-0:5 opencv
-mpiicc opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm
-mpiicc opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv
-srun -N 4 -n 4 --time=0-0:5 opencv
-srun --nodes 4  --time=0-0:5 opencv
-srun --nodes 4 --ntasks 2 --time=0-0:5 opencv
-srun --nodes 4 --ntasks 4 --time=0-0:5 opencv
-srun --nodes 4 --ntasks 4 --cpus-per-task 4 --time=0-0:5 opencv
-srun --nodes 4 --ntasks 4 --cpus-per-task 8 --time=0-0:5 opencv
-srun --nodes 4 --ntasks 4 --cpus-per-task 32 --time=0-0:5 opencv
-srun --nodes 4 --ntasks 4 --cpus-per-task 16 --time=0-0:5 opencv
-srun --nodes 4 --ntasks 4 --cpus-per-task 24 --time=0-0:5 opencv
-srun --nodes 4 --ntasks 4 --cpus-per-task 28 --time=0-0:5 opencv
-srun --nodes 1 --ntasks 1 --cpus-per-task 28 --time=0-0:5 opencv
-srun --nodes 1 --ntasks 1 --cpus-per-task 32 --time=0-0:5 opencv
-srun --nodes 1 --ntasks 1 --cpus-per-task 33 --time=0-0:5 opencv
-srun --nodes 1 --ntasks 2 --cpus-per-task 32 --time=0-0:5 opencv
-srun --nodes 2 --ntasks 2 --cpus-per-task 32 --time=0-0:5 opencv
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-srun --nodes 4 --ntasks 4 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes 2 --ntasks 2 --cpus-per-task 4 --time=0-0:5 opencv
-srun --nodes 2 --ntasks 2 --cpus-per-task 8 --time=0-0:5 opencv
-srun --nodes 2 --ntasks 2 --cpus-per-task 5 --time=0-0:5 opencv
-git commit . -m "a"
-git push origin master
-exit
-ls
-cd 03_MPI_Histogram/
-ls
-ls -al
-module load softwares/git/2.11.0-gnu-4.4 
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-git add opencv_hist_MPI_openmp.cpp 
-git commit opencv_hist_MPI_openmp.cpp -m "a"
-git push origin master
-git pull
-ls
-cd 02_Imagens/
-ls
-cd ..
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=2 --cpus-per-task=2 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=2 --cpus-per-task=2 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=2 --cpus-per-task=2 --time=0-0:5 opencv
-srun --nodes=2 --cpus-per-task=4 --time=0-0:5 opencv
-srun --nodes=4 --cpus-per-task=4 --time=0-0:5 opencv
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=4 --cpus-per-task=4 --time=0-0:5 opencv
-srun --nodes=4 --cpus-per-task=4 --time=0-0:5 opencv "02_Imagens/Einstein_3400x3200.jpg" 
-git pull
-ls
-mkdir outputs
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-ls
-cd csvfile/
-ls
-g++ main.cpp -o main
-cd ..
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 opencv "02_Imagens/Einstein_3400x3200.jpg" 
-cd 02_Imagens/
-ls
-git pull
-ls
-cd ..
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 opencv "02_Imagens/Einstein_3200x3200.jpg" 
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 opencv "02_Imagens/Einstein_3200x3200.jpg" 
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 opencv "02_Imagens/Einstein_1600x3200.jpg" 
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 opencv "02_Imagens/Einstein_1600x3200.jpg" 
-cd 02_Imagens/
-git pull
-ls
-cd ..
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 opencv "02_Imagens/Einstein_6400x6400.jpg" 
-cd 02_Imagens/
-ls
-git pull
-ls
-cd ..
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=1 --cpus-per-task=1 --time=0-0:10 opencv "02_Imagens/Einstein_12800x12800.jpg" 
-srun --nodes=1 --cpus-per-task=8 --time=0-0:10 opencv "02_Imagens/Einstein_12800x12800.jpg" 
-srun --nodes=1 --cpus-per-task=2 --time=0-0:10 opencv "02_Imagens/Einstein_12800x12800.jpg" 
-sbatch script.sh 
-squeue
-sbatch script.sh 
-ls
-cat slurm-169764.out 
-sbatch script.sh 
-cat slurm-169765.out 
-sbatch script.sh 
-cat slurm-169766.out 
-sbatch script.sh 
-cat slurm-169768.out 
-sbatch script.sh 
-cat slurm-169769.out 
-sbatch script.sh 
-cat slurm-169770.out 
-sbatch script.sh 
-cat slurm-169771'
-
-cat slurm-169771.out 
-sbatch script.sh 
-cat slurm-169772.out 
-sbatch script
-sbatch script.sh 
-cat slurm-169773.out 
-ls
-sbatch script_full.sh 
-cat slurm-169775.out 
-sbatch script_full.sh 
-cat slurm-169776.out 
-sbatch script_full.sh 
-cat slurm-169777.out 
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-sbatch script_full.sh 
-ls
-cd slurms_output/
-ls
-cd ..
-cat slurms_output/slurm-169778.out 
-cat /etc/security/limits.conf
-ulimit -a
-sbatch script_full.sh 
-cat slurms_output/slurm-169779.out 
-sbatch script_full.sh 
-cat slurms_output/slurm-169780.out 
-cd 03_MPI_Histogram/
-ls
-mpiicc -O2 opencv_hist_MPI_rev1.cpp -o opencv_mpi `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-module load softwares/git/2.11.0-gnu-4.4 
-mpiicc -O2 opencv_hist_MPI_rev1.cpp -o opencv_mpi `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-ls
-cd 03_MPI_Histogram/
-ls
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-module load softwares/git/2.11.0-gnu-4.4 
-sbatch script_mpi.sh 
-cat slurms_output/slurm-169823.out 
-sbatch script_serial.sh 
-cat slurms_output/slurm-169824.out 
-ls
-git add .
-git commit . -m "a
-git commit . -m "a"
-git push origin master
-cat slurms_output/slurm-169824.out 
-mpiicc -O2 opencv_hist_MPI_serial.cpp -o opencv_serial `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-sbatch script_serial.sh 
-cat slurms_output/slurm-169835.out 
-git add .
-git commit . -m "a"
-git push origin master
-mpiicc -O2 opencv_hist_MPI_openmp_reduction.cpp -o opencv_reduction `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-ls
-module load softwares/git/2.11.0-gnu-4.4 
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-module avail
-ls
-cd 03_MPI_Histogram/
-ls
-git add .
-git commit . -m "a"
-git push origin master
-module load softwares/git/2.11.0-gnu-4.4 
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-cd 03_MPI_Histogram/
-ls
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-sbatch script_false_sharing.sh 
-squeue
-sbatch script_false_sharing.sh 
-squeue
-srun --nodes=1 --ntasks=1 --cpus-per-task=8 opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg"
-srun --nodes=1 --ntasks=1 --cpus-per-task=8 --time=0-0:5 opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg"
-srun --nodes=1 --ntasks=1 --cpus-per-task=4 --time=0-0:5 opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg"
-squeue
-srun --nodes=1 --ntasks=1 --cpus-per-task=4 --time=0-0:5 opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg"
-srun --nodes=1 --ntasks=1 --cpus-per-task=6 --time=0-0:5 opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg"
-squeue
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg"
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg"
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg"
-./opencv_false_sharing "02_Imagens/Einstein_6400x3200.jpg"
-./opencv_false_sharing "02_Imagens/black_white.jpg"
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv_false_sharing "02_Imagens/black_white.jpg"
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv_false_sharing "02_Imagens/black_white.jpg"
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv_false_sharing "02_Imagens/black_white.jpg"
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv_false_sharing "02_Imagens/black_white.jpg"
-./opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg"
-./opencv_false_sharing "02_Imagens/Einstein_6400x3200.jpg"
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv_false_sharing "02_Imagens/Einstein_6400x3200.jpg"
-./opencv_false_sharing "02_Imagens/Einstein_3400x3127.jpg"
-./opencv_false_sharing "02_Imagens/Einstein_3200x3200.jpg"
-squeue
-mpiicc -O2 opencv_hist_MPI_openmp_false_sharing.cpp -o opencv_false_sharing `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv_false_sharing "02_Imagens/Einstein_3200x3200.jpg"
-./opencv_false_sharing "02_Imagens/Einstein_12800x12800.jpg" 
-ls
-cd outputs/
-ls
-git add output_nodes_1_threads_16_width_3200_height_3200_false_sharing_20180406_0110*
-git commit . -m "a"
-git push origin master
-exit
-module load softwares/git/2.11.0-gnu-4.4 
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-cd 03_MPI_Histogram/
-ls
-mpiicc -O2 opencv_hist_MPI_rev2.cpp -o opencv_mpi_process `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-ls
-sbatch script_mpi_process_2.sh 
-sbatch script_mpi_process_4.sh 
-sbatch script_mpi_process_8.sh 
-squeue
-cat slurms_output/slurm-170095.out 
-cat slurms_output/slurm-170096.out 
-cat slurms_output/slurm-170095.out 
-cat slurms_output/slurm-170096.out 
-squeue
-cat slurms_output/slurm-170095.out 
-cat slurms_output/slurm-170096.out 
-ls
-cd 03_MPI_Histogram/
-ls
-cd outputs/
-ls
-module load softwares/git/2.11.0-gnu-4.4 
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-git add output_nodes_1_processes_*
-git commit . -m "a"
-git push origin master
-cd ..
-ls
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=8 --cpus-per-task=8 --time=0-0:5 opencv "02_Imagens/black_white.jpg" 
-srun --nodes=1 --cpus-per-task=8 --time=0-0:5 opencv "02_Imagens/black_white.jpg" 
-srun --nodes=1 --cpus-per-task=1 --time=0-0:5 opencv "02_Imagens/black_white.jpg" 
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=1 --cpus-per-task=1 --time=0-0:5 opencv "02_Imagens/black_white.jpg" 
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-srun --nodes=1 --cpus-per-task=1 --time=0-0:5 opencv "02_Imagens/black_white.jpg" 
-srun --nodes=8 --cpus-per-task=1 --time=0-0:5 opencv "02_Imagens/black_white.jpg" 
-srun --nodes=8 --cpus-per-task=1 --time=0-0:5 opencv "02_Imagens/Einstein_12800x12800.jpg" 
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-ls
-ls -al
-g++ -O2 openmp_reduction.cpp -o openmp_reduction
-ls
-./openmp_reduction 
-g++ -O2 openmp_reduction.cpp -o openmp_reduction
-./openmp_reduction 
-g++ -O2 openmp_reduction.cpp -o openmp_reduction
-ls
-./openmp_reduction 
-g++ -O2 openmp_reduction.cpp -o openmp_reduction
-./openmp_reduction 
-g++ -O2 openmp_reduction.cpp -o openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-icc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-./openmp_reduction 
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-./openmp_reduction 
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-./openmp_reduction 
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-./openmp_reduction 
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-./openmp_reduction 
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-./openmp_reduction 
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-./openmp_reduction 
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-./openmp_reduction 
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-./openmp_reduction 
-srun openmp_reduction
-srun --time=0-0:5 openmp_reduction
-srun --time=0-0:30 openmp_reduction
-srun --nodes=1 --time=0-0:30 openmp_reduction
-srun --nodes=1 --cpus-per-task=1 --time=0-0:30 openmp_reduction
-srun --nodes=1 --cpus-per-task=2 --time=0-0:30 openmp_reduction
-srun --nodes=1 --cpus-per-task=10 --time=0-0:30 openmp_reduction
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-./openmp_reduction 
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-echo |cpp -fopenmp -dM |grep -i open
-module avail
-module load compilers/gnu/7.1 
-echo |cpp -fopenmp -dM |grep -i open
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-module load compilers/intel/16.0.1 
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-mpiicc -O2 openmp_reduction.cpp -o openmp_reduction -openmp
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 openmp_reduction
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-srun --nodes=1 --cpus-per-task=20 --time=0-0:5 openmp_reduction
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction_example1.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 openmp_reduction
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 openmp_reduction
-g++ -O2 openmp_reduction.cpp -o openmp_reduction -fopenmp
-g++ -O2 opencv_hist_MPI_openmp_reduction1.cpp -o opencv_openmp_reduction `pkg-config --libs --cflags opencv` -ldl -lm -fopenmp
-mod
-g++ -O2 opencv_hist_MPI_openmp_reduction1.cpp -o opencv_openmp_reduction `pkg-config --libs --cflags opencv` -ldl -lm -fopenmp
-g++ -O2 opencv_hist_MPI_openmp_reduction1.cpp -o opencv_openmp_reduction `pkg-config --libs --cflags opencv` -ldl -lm -lopencv_imgcodecs -fopenmp
-pkg-config --cflags --libs opencv
-module avail
-exit
-module load compilers/gnu/6.4 
-cd 03_MPI_Histogram/
-ls
-g++ openmp_reduction.cpp -o reduction -fopenmp
-./reduction 
-srun --nodes-1 --cpus-per-task=10 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=9 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=8 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=10 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=9 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=8 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=3 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=2 --time=0-0:5 reduction 
-srun --nodes=1 --cpus-per-task=4 --time=0-0:5 reduction 
-srun --nodes=1 --ntasks=1 --cpus-per-task=4 --time=0-0:5 reduction 
-srun --nodes=1 --ntasks=1 --cpus-per-task=3 --time=0-0:5 reduction 
-g++ openmp_reduction.cpp -o reduction -fopenmp
-srun --nodes=1 --ntasks=1 --cpus-per-task=3 --time=0-0:5 reduction 
-g++ openmp_reduction.cpp -o reduction -fopenmp
-srun --nodes=1 --ntasks=1 --cpus-per-task=3 --time=0-0:5 reduction 
-g++ openmp_reduction.cpp -o reduction -fopenmp
 srun --nodes=1 --ntasks=1 --cpus-per-task=3 --time=0-0:5 reduction 
 g++ openmp_reduction.cpp -o reduction -fopenmp
 g++ openmp_reduction.cpp -o reduction -fopenmp `pkg-config --libs --cflags opencv` -ldl -lm
@@ -998,3 +325,676 @@ cat .bash_profile
 sudo vim .bash_profile 
 vim .bash_profile 
 exit
+cd 03_MPI_Histogram/
+ls
+cd 03_CIMG/
+l
+ls
+g++ -o hello_jpeg hello_jpeg_2.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -lpjeg
+g++ -o hello_jpeg hello_jpeg_2.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+ls
+cd ..
+cd Demetrius/
+ls
+g++ -o histogram_openmp histogram_openmp.cpp -Dcimg_display=0 -fopenmp
+cd ..
+cd 03_CIMG/
+ls
+g++ -o histogram_openmp histogram_openmp.cpp -Dcimg_display=0 -fopenmp
+ls
+git pull origin master
+git fetch
+git reset --hard origin master
+git fetch
+git reset --hard origin
+git reset --hard master
+git pull origin master
+git reset --hard origin/master
+git pull origin master
+ls
+g++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load compilers/gnu/7.1 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpiCC -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+gcc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpiicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpiicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg //mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
+mpiicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg `pkg-config --libs -ldl -lm
+
+mpiicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg `pkg-config --libs` -ldl -lm
+mpiicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg ` -ldl -lm
+
+mpiicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpiicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -ldl
+mpiicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -ldl -lm -opopenmp
+gcc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpicc -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module avail
+module load libraries/openmpi/1.4-gnu-7.1 
+mpiCC
+mpiCC -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial black_white.jpg 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial black_white.jpg 
+ls
+cd 03_MPI_Histogram/
+ls
+cd 03_CIMG/
+ls
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load compilers/gnu/7.1 
+module load libraries/openmpi/1.4-gnu-7.1 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 
+./histogram_serial bird-780x520.jpg 
+ls
+cd 03_MPI_Histogram/03_CIMG/03_MPI/
+ls
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load compilers/gnu/7.1 
+module load libraries/openmpi/1.4-gnu-7.1 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 
+./histogram_serial bird-780x520.jpg 
+./histogram_serial black_white.jpg 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial black_white.jpg 
+./histogram_serial bird-780x520.jpg 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial black_white.jpg 
+ls
+cd ..
+ls
+cd 03_MPI/
+l
+ls
+mpic++ -o histogram_MPI histogram_MPI.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_MPI black_white.jpg 
+srun -N=2 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+srun --nodes=2 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+mpic++ -o histogram_MPI histogram_MPI.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+srun --nodes=2 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+srun --nodes=2 --tasks-per-node=1 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+srun --nodes=2 --ntasks-per-node=1 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+srun --nodes=2 --ntasks-per-node=2 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+srun --nodes=2 --ntasks-per-node=2 -n4 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+srun --nodes=2 --ntasks-per-node=2 --cpus-per-task=1 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+mpic++ -o histogram_MPI histogram_MPI.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+srun --nodes=2 --ntasks-per-node=2 --cpus-per-task=1 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+srun --nodes=2 --ntasks-per-node=2 --cpus-per-task=1 --ntasks=4 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+srun --nodes=1 --ntasks-per-node=4 --cpus-per-task=1 --ntasks=4 --time=0-0:5 histogram_MPI bird-780x520.jpg 
+ls
+sbatch job_histogram_MPI.sh 
+ls
+mpic++ -o histogram_MPI histogram_MPI.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+sbatch job_histogram_MPI.sh 
+mpiicc -o histogram_MPI histogram_MPI.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpiCC -o histogram_MPI histogram_MPI.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+sbatch job_histogram_MPI.sh 
+cd ..
+ls
+cd ..
+ls
+cd 01_Tutoriais/
+ls
+cd 01_MPI/
+ls
+cat saida116615.out 
+cat hello_mpi.c 
+cp hello_mpi.c hello_mpi.cpp
+mpic++ hello_mpi.cpp -o hello_mpi
+srun --nodes=2 --tasks-per-node=2 --cpus-per-taks=1 --time=0-0:2 hello_mpi
+srun --nodes=2 --tasks-per-node=2 --cpus-per-task=1 --time=0-0:2 hello_mpi
+mpiicc hello_mpi.cpp -o hello_mpi
+srun --nodes=2 --tasks-per-node=2 --cpus-per-task=1 --time=0-0:2 hello_mpi
+srun --nodes=1 --tasks-per-node=4 --cpus-per-task=1 --time=0-0:2 hello_mpi
+mpicxx hello_mpi.cpp -o hello_mpi
+srun --nodes=1 --tasks-per-node=4 --cpus-per-task=1 --time=0-0:2 hello_mpi
+ls
+mpicxx hello_mpi.cpp -o hello_mpi
+srun --nodes=1 --tasks-per-node=2 --cpus-per-task=1 --time=0-0:2 hello_mpi
+mpirun hello_mpi
+mpirun -n 2 hello_mpi
+mpirun --nodes=1 --tasks-per-node=2 --cpus-per-task=1 --time=0-0:2 hello_mpi
+mpirun --nodes=2 --tasks-per-node=2 --cpus-per-task=1 --time=0-0:2 hello_mpi
+ls
+vim jobMPI.sh 
+sbatch jobMPI.sh 
+lls
+ls
+cat slurm-223887.out 
+cat saida116616.out 
+vim jobMPI.sh 
+sbatch jobMPI.sh 
+ls
+cat slurm-223888.out 
+cd ..
+cd 03_MPI_Histogram/03_CIMG/03_MPI/
+ls
+mpic++ -o histogram_MPI histogram_MPI.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpirun histogram_MPI
+mpirun -n 2 histogram_MPI bird-780x520.jpg 
+mpirun -n 4 histogram_MPI bird-780x520.jpg 
+ls
+sbatch job_histogram_MPI.sh 
+cat outputs/slurm-223894.out 
+cd ..
+ls
+cd 04_MPI_OpenMP/
+l
+ls
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -openmp
+mpirun -n 2 histogram_MPI_OpenMP 
+ls
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -openmp
+ls
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+ls
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -lm -openmp
+rm histogram_MPI_OpenMP
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -lm -openmp
+ls
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -ldl -lm -openmp
+ls
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg 
+ls
+mpirun -n 2 histogram_MPI_OpenMP
+mpirun -n 2 histogram_MPI_OpenMP bird-780x520.jpg 
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg 
+ls
+rm penmp 
+mpic++ -o histogram_MPI_OpenMP -openmp histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpic++ -o histogram_MPI_OpenMP -fopenmp histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+l
+ls
+rm histogram_MPI_OpenMP
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+ls
+mpirun -n 2 histogram_MPI_OpenMP bird-780x520.jpg 
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+mpirun -n 2 histogram_MPI_OpenMP bird-780x520.jpg 
+ls
+sbatch job_histogram_MPI_OpenMP.sh 
+squeue
+squeue | grep vhf
+cat outputs/slurm-223913.out 
+sbatch job_histogram_MPI_OpenMP.sh 
+rm outputs/slurm-223913.out 
+ls
+squeue | grep vhf
+cat outputs/slurm-223916.out 
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+sbatch job_histogram_MPI_OpenMP.sh 
+squeue | grep vhf
+cat outputs/slurm-223920.out 
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+sbatch job_histogram_MPI_OpenMP.sh 
+cat outputs/slurm-223940.out 
+sbatch job_histogram_MPI_OpenMP.sh 
+cat outputs/slurm-223941.out 
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+sbatch job_histogram_MPI_OpenMP.sh 
+squeue | grep vhf
+cat outputs/slurm-223942.out 
+ls
+cd 03_MPI_Histogram/03_CIMG/03_MPI/outputs/
+ls
+cat slurm-223876.out 
+ls
+cat slurm-223878.out 
+ls
+cat slurm-223879.out 
+ls
+git
+ls
+cd 03_MPI_Histogram/
+git add .
+git commit -m "A"
+git push origin master
+ls
+cd 03_CIMG/
+ls
+cd 02_Serial/
+ls
+mpic++
+module load compilers/gnu/7.3 
+mpic++
+module load libraries/openmpi/1.4-gnu-7.1 
+mpic++
+ls
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load compilers/gnu/7.1
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 
+./histogram_serial bird-780x520.jpg 
+./histogram_serial Einstein_12800x12800.jpg 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial Einstein_12800x12800.jpg 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial Einstein_12800x12800.jpg 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+ls
+cd 01_Tutoriais/
+ls
+cd 01_MPI/
+ls
+vim hello_mpi.cpp 
+module load compilers/gnu/7.1 
+module load libraries/openmpi/1.4-gnu-7.1 
+mpic++
+ls
+mpic++ -o hello_mpi hello_mpi.cpp 
+mpiCC -o hello_mpi hello_mpi.cpp 
+mpiicc -o hello_mpi hello_mpi.cpp 
+vim hello_mpi.cpp 
+mpic++ -o hello_mpi hello_mpi.cpp 
+mpicxx -o hello_mpi hello_mpi.cpp 
+module load compilers/gnu/7.3 
+mpic++ -o hello_mpi hello_mpi.cpp 
+./hello_mpi
+srun --nodes=1 --ntasks=4 --time=0-0:5 hello_mpi
+mpirun --nodes=1 --ntasks=4 --time=0-0:5 hello_mpi
+ls
+vim jobMPI.sh 
+sbatch jobMPI.sh 
+ls
+squeue | grep vhf
+squeue
+squeue | grep vhf
+ls
+cat slurm-234111.out 
+ls
+cd 03_MPI_Histogram/
+ls
+cd 03_CIMG/
+ls
+cd 02_Serial/
+ls
+git add .
+git commit -m "a"
+git push origin master
+ls
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load compilers/gnu/7.3 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load libraries/openmpi/1.4-gnu-7.1
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load compilers/gnu/7.1 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+ls
+cd 03_MPI_Histogram/
+ls
+cd 03_CIMG/
+ls
+cd 02_Serial/
+ls
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load libraries/openmpi/1.4-gnu-7.1
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 
+./histogram_serial Einstein_12800x12800.jpg 
+./histogram_serial 0
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0
+module load compilers/gnu/7.1 
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0
+mpic++ -o histogram_serial histogram_serial.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0
+mpic++ -o histogram_serial histogram_serial_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0 20 1 0
+./histogram_serial 0 65 1 0
+./histogram_serial 0 35 1 0
+./histogram_serial 0 36 1 0
+mpic++ -o histogram_serial histogram_serial_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0 35 1 0
+mpic++ -o histogram_serial histogram_serial_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0 35 1 0
+mpic++ -o histogram_serial histogram_serial_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0 33 1 1
+mpic++ -o histogram_serial histogram_serial_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+ls
+srun histogram_serial 0 33 1 1
+srun --time=0-0:5 histogram_serial 0 33 1 1
+./histogram_serial 0 42 1 1
+mpic++ -o histogram_serial histogram_serial_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0 32 1 0
+./histogram_serial 0 42 1 1
+ls
+sbatch jobSerial.sh 
+squeue | grep vhf
+squeue
+squeue | grep vhf
+ls
+sbatch jobSerial_test.sh 
+squeue | grep vhf
+cd slurm_outputs/
+ls
+cat slurm-234744.out 
+ls
+cd ..
+cd outputs/
+ls
+ls -al
+cd ..
+sbatch jobSerial_test.sh 
+squeue | grep vhf
+cd slurm_outputs/
+ls
+cat slurm-234745.out 
+cd ..
+cd outputs/
+ls
+ls -al
+cd ..
+cd 03_MPI/
+ls
+mpic++ -o histogram_MPI histogram_MPI_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpirun --nodes=2 --time=0-0:5 histogram_MPI 0 30 2 0
+mpirun histogram_MPI 0 30 2 0
+mpirun -n 2 histogram_MPI 0 26 2 0
+mpic++ -o histogram_MPI histogram_MPI.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpirun -n 2 histogram_MPI bird-780x520.jpg 
+mpic++ -o histogram_MPI histogram_MPI_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpirun -n 2 histogram_MPI 0 20 2 0
+mpirun -n 2 histogram_MPI 0 34 2 0
+ls
+cd 03_MPI_Histogram/03_CIMG/02_Serial/
+sbatch jobSerial.sh 
+squeue | grep vhf
+squeue
+sbatch jobSerial.sh 
+ls
+cd 01_Tutoriais/
+ls
+cd 01_MPI/
+ls
+vim jobMPI.sh 
+sbatch jobMPI.sh 
+squeue | grep vhf
+vim jobMPI.sh 
+squeue | grep vhf
+ls
+cat slurm-234954.out 
+module load libraries/openmpi/1.4-gnu-7.1 
+module load compilers/gnu/7.1 
+sbatch jobMPI.sh 
+vim jobMPI.sh 
+mpirun hello_mpi
+squeue | grep vhf
+cat slurm-234955.out 
+ls
+vim hello_mpi.cpp 
+mpic++ -o hello_mpi hello_mpi.cpp 
+mpirun hello_mpi
+sbatch jobMPI.sh 
+squeue | grep vhf
+cat slurm-234956.out 
+vim hello_mpi.cpp 
+vim jobMPI.sh 
+sbatch jobMPI.sh 
+squeue | grep vhf
+cat slurm-234957.out 
+vim jobMPI.sh 
+sbatch jobMPI.sh 
+squeue | grep vhf
+cat slurm-234958.out 
+vim jobMPI.sh 
+sbatch jobMPI.sh 
+squeue | grep vhf
+cat slurm-234959.out 
+squeue | grep vhf
+scancel 234952
+scancel 234953
+ls
+cd 01_Tutoriais/
+ls
+cd 02_OpenMP/
+ls
+vim hello_openmp.c 
+./hello_openmp 
+vim hello_openmp.c 
+export OMP_NUM_THREADS=2
+./hello_openmp 
+mpic++ -o hello_openmp hello_openmp.cpp -fopenmp
+module load libraries/openmpi/1.4-gnu-7.1 
+module load compilers/gnu/7.1 
+mpic++ -o hello_openmp hello_openmp.cpp -fopenmp
+./hello_openmp 
+export OMP_NUM_THREADS=4
+./hello_openmp 
+squeue | grep vhf
+cd ..
+ls
+cd ..
+ls
+cd 03_MPI_Histogram/
+l
+ls
+cd 03_CIMG/02_Serial/
+ls
+cd outputs/
+ls
+ls -al
+cd ..
+cd slurm_outputs/
+ls
+ls -al
+cat slurm-234960.out 
+cd ..
+mpic++
+cd ..
+ls
+cd 01_Tutoriais/
+ls
+cd 01_MPI/
+ls
+vim hello_mpi.cpp 
+ls
+cd 03_MPI_Histogram/03_CIMG/02_Serial/
+ls
+sbatch jobSerial.sh 
+squeue 
+ls
+cd outputs/
+ls
+ls -al
+cat output_nodes_1_processes_1_threads_1_size_33_20180524_101822.csv 
+cd ..
+ls
+cd 03_MPI/
+ls
+sbatch job_histogram_MPI_n2_p2.sh 
+sbatch job_histogram_MPI_n4_p4.sh 
+sbatch job_histogram_MPI_n8_p8.sh 
+squeue | grep vhf
+squeue
+squeue | grep vhf
+cd ..
+cd 04_OpenMP/
+ls
+ * mpic++ -o histogram_MPI histogram_MPI_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load compilers/gnu/7.1 
+module loadd
+module load libraries/openmpi/1.4-gnu-7.1 
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+module load compilers/gnu/7.1 
+module load libraries/openmpi/1.4-gnu-7.1 
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+module load compilers/gnu/7.3 
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_OpenMP 0 20 1 0
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_OpenMP 0 20 1 0
+export OMP_NUM_THREADS=2
+./histogram_OpenMP 0 20 1 0
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_OpenMP 0 20 1 0
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_OpenMP 0 20 1 0
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_OpenMP 0 20 1 0
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_OpenMP 0 20 1 0
+./histogram_OpenMP 0 5 1 0
+./histogram_OpenMP 0 6 1 0
+./histogram_OpenMP 0 2 1 0
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_OpenMP 0 2 1 0
+squeue | grep vhf
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_OpenMP 0 6 1 0
+./histogram_OpenMP 0 10 1 0
+./histogram_OpenMP 0 16 1 0
+time histogram_OpenMP 0 16 1 0
+time ./histogram_OpenMP 0 16 1 0
+time ./histogram_OpenMP 0 32 1 0
+export OMP_NUM_THREADS=2
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+time ./histogram_OpenMP 0 32 1 0
+export OMP_NUM_THREADS=16
+time ./histogram_OpenMP 0 32 1 0
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+export OMP_NUM_THREADS=2
+time ./histogram_OpenMP 0 32 1 0
+export OMP_NUM_THREADS=16
+time ./histogram_OpenMP 0 32 1 0
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+export OMP_NUM_THREADS=2
+time ./histogram_OpenMP 0 32 1 0
+export OMP_NUM_THREADS=16
+time ./histogram_OpenMP 0 32 1 0
+mpic++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+time ./histogram_OpenMP 0 32 1 0
+cd ..
+ls
+cd 02_Serial/
+ls
+g++ -o histogram_serial histogram_serial_Rev2.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0 20 1 0
+g++ -o histogram_serial histogram_serial_Rev2.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0 30 1 0
+g++ -o histogram_serial histogram_serial_Rev2.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0 32 1 0
+g++ -o histogram_serial histogram_serial_Rev2.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 0 32 1 1
+sbatch jobSerial.sh 
+squeue
+squeue | grep vhf
+cd ..
+ls
+cd 04_OpenMP/
+ls
+g++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+export OMP_NUM_THREADS=2
+./histogram_OpenMP 0 20 1 0
+./histogram_OpenMP 0 20 1 1
+./histogram_OpenMP 0 32 1 1
+export OMP_NUM_THREADS=16
+./histogram_OpenMP 0 32 1 1
+squeue | grep vhf
+ls
+sbatch jobOpenMP.sh 
+squeue | grep vhf
+squeue
+squeue | grep vhf
+ls -al
+sbatch jobOpenMP.sh 
+squeue | grep vhf
+scancel 234963
+squeue | grep vhf
+ls
+cd 01_Tutoriais/
+ls
+cd 01_MPI/
+ls
+module load libraries/openmpi/1.4-gnu-7.1 
+module load compilers/gnu/7.1 
+vim hello_mpi.cpp 
+mpic++ -o hello_mpi hello_mpi.cpp 
+mpirun hello_mpi
+mpirun -n 2 hello_mpi
+srun --ntasks=2 --time=0-0:2 hello_mpi
+ls
+cd 03_MPI_Histogram/
+ls
+cd 03_MPI_Histogram/
+l
+ls
+git add .
+git commit -m "a"
+git push origin master
+ls
+cd 03_CIMG/
+ls
+cd 04_OpenMP/
+ls
+module load compilers/gnu/7.1 
+g++ -o histogram_OpenMP histogram_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+export OMP_NUM_THREADS=32
+./histogram_OpenMP 0 20 1 0
+export OMP_NUM_THREADS=16
+./histogram_OpenMP 0 20 1 0
+./histogram_OpenMP 0 32 1 0
+export OMP_NUM_THREADS=32
+./histogram_OpenMP 0 32 1 0
+cd ..
+cd 05_MPI_OpenMP/
+ls
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+module load libraries/openmpi/1.4-gnu-7.1 
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+module load compilers/gnu/7.3 
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+mpirun --nodes=1 histogram_MPI_OpenMP 0 20 1 0
+mpirun --nodes 1 histogram_MPI_OpenMP 0 20 1 0
+mpirun --n 1 histogram_MPI_OpenMP 0 20 1 0
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+mpirun --n 1 histogram_MPI_OpenMP 0 20 1 0
+export OMP_NUM_THREADS=16
+mpirun --n 1 histogram_MPI_OpenMP 0 20 1 0
+export OMP_NUM_THREADS=32
+mpirun --n 1 histogram_MPI_OpenMP 0 20 1 0
+export OMP_NUM_THREADS=16
+mpirun --n 1 histogram_MPI_OpenMP 0 20 1 0
+export OMP_NUM_THREADS=24
+mpirun --n 1 histogram_MPI_OpenMP 0 20 1 0
+export OMP_NUM_THREADS=8
+mpirun --n 1 histogram_MPI_OpenMP 0 20 1 0
+export OMP_NUM_THREADS=2
+mpirun --n 1 histogram_MPI_OpenMP 0 20 1 0
+mpirun --n 1 histogram_MPI_OpenMP 0 32 1 0
+export OMP_NUM_THREADS=4
+mpirun --n 1 histogram_MPI_OpenMP 0 32 1 0
+export OMP_NUM_THREADS=8
+mpirun --n 1 histogram_MPI_OpenMP 0 32 1 0
+export OMP_NUM_THREADS=16
+mpirun --n 1 histogram_MPI_OpenMP 0 32 1 0
+export OMP_NUM_THREADS=8
+mpirun --n 1 histogram_MPI_OpenMP 0 32 1 0
+mpirun --n 2 histogram_MPI_OpenMP 0 32 2 0
+mpirun --n 4 histogram_MPI_OpenMP 0 32 2 0
+mpirun histogram_MPI_OpenMP 0 32 2 0
+ls
+sbatch job_histogram_MPI_OpenMP.sh 
+cd slurm_outputs/
+ls
+squeue | grep vhf
+squeue
+squeue | grep vhf
+cd ..
+ls
+sbatch job_histogram_MPI_OpenMP_nodes_2.sh 
+sbatch job_histogram_MPI_OpenMP_nodes_4.sh 
+squeue | grep vhf
+squeue

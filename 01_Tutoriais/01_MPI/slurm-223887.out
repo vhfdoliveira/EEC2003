@@ -1,0 +1,4 @@
+From process 2: ; Number of MPI processes is 4
+From process 3: ; Number of MPI processes is 4
+From process 1: ; Number of MPI processes is 4
+From process 0: ; Number of MPI processes is 4

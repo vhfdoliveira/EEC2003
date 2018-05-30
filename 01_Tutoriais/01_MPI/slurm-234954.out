@@ -1,0 +1,2 @@
+[proxy:0:0@r1i0n17] HYDU_create_process (../../utils/launch/launch.c:621): execvp error on file hello_mpi (No such file or directory)
+[proxy:0:0@r1i0n17] HYDU_create_process (../../utils/launch/launch.c:621): execvp error on file hello_mpi (No such file or directory)

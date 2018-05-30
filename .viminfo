@@ -57,18 +57,26 @@
 	K
 
 # File marks:
-'0  14  39  ~/.bash_profile
-'1  1  0  ~/03_MPI_Histogram/anotações 23.03
-'2  1  0  ~/03_MPI_Histogram/opencv_hello_world.cpp
-'3  109  0  ~/02_MPI_PI/PI_MPI_time_2_reduces.c
-'4  81  1  ~/02_MPI_PI/PI_MPI_time.c
-'5  25  21  ~/02_MPI_PI/test.c
-'6  23  23  ~/02_MPI_PI/test.c
-'7  26  17  ~/02_MPI_PI/test.c
-'8  15  1  ~/02_MPI_PI/test.c
-'9  100  0  ~/02_MPI_PI/PI_MPI_time.c
+'0  12  40  ~/01_Tutoriais/01_MPI/hello_mpi.cpp
+'1  15  54  ~/01_Tutoriais/01_MPI/hello_mpi.cpp
+'2  30  1  ~/01_Tutoriais/02_OpenMP/hello_openmp.c
+'3  2  16  ~/01_Tutoriais/01_MPI/jobMPI.sh
+'4  25  2  ~/01_Tutoriais/01_MPI/hello_mpi.cpp
+'5  1  0  ~/01_Tutoriais/01_MPI/hello_mpi.cpp
+'6  2  17  ~/01_Tutoriais/01_MPI/jobMPI.sh
+'7  5  2  ~/01_Tutoriais/01_MPI/jobMPI.sh
+'8  14  39  ~/.bash_profile
+'9  1  0  ~/03_MPI_Histogram/anotações 23.03
 
 # Jumplist (newest first):
+-'  12  40  ~/01_Tutoriais/01_MPI/hello_mpi.cpp
+-'  15  2  ~/01_Tutoriais/01_MPI/hello_mpi.cpp
+-'  25  2  ~/01_Tutoriais/01_MPI/hello_mpi.cpp
+-'  30  1  ~/01_Tutoriais/02_OpenMP/hello_openmp.c
+-'  2  16  ~/01_Tutoriais/01_MPI/jobMPI.sh
+-'  1  0  ~/01_Tutoriais/01_MPI/hello_mpi.cpp
+-'  5  0  ~/01_Tutoriais/01_MPI/jobMPI.sh
+-'  1  0  ~/01_Tutoriais/01_MPI/jobMPI.sh
 -'  14  39  ~/.bash_profile
 -'  1  0  ~/.bash_profile
 -'  1  0  ~/03_MPI_Histogram/anotações 23.03
@@ -91,7 +99,6 @@
 -'  1  0  ~/02_MPI_PI/test.c
 -'  8  12  ~/02_MPI_PI/anotações
 -'  1  0  ~/02_MPI_PI/anotações
--'  30  1  ~/01_Tutoriais/02_OpenMP/hello_openmp.c
 -'  5  0  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
 -'  6  0  ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
 -'  1  0  ~/01_Tutoriais/02_OpenMP/script.sh
@@ -161,14 +168,57 @@
 -'  2  0  ~/01_Tutoriais/jobMPI.sh
 -'  1  0  ~/01_Tutoriais/jobMPI.sh
 -'  6  13  ~/01_Tutoriais/jobMPI.sh
--'  5  0  ~/01_Tutoriais/jobMPI.sh
--'  8  0  ~/01_Tutoriais/jobMPI.sh
--'  10  13  ~/01_Tutoriais/jobMPI.sh
--'  3  0  ~/01_Tutoriais/jobMPI.sh
--'  4  0  ~/01_Tutoriais/jobMPI.sh
--'  2  0  ~/01_Tutoriais/jobMPI.sh
 
 # History of marks within files (newest to oldest):
+
+> ~/01_Tutoriais/01_MPI/hello_mpi.cpp
+	"	12	40
+	^	12	41
+	.	12	40
+	+	7	19
+	+	27	3
+	+	25	87
+	+	24	0
+	+	25	76
+	+	17	1
+	+	15	53
+	+	14	1
+	+	12	40
+
+> ~/01_Tutoriais/02_OpenMP/hello_openmp.c
+	"	30	1
+	^	30	59
+	.	30	58
+	+	33	0
+	+	1	0
+	+	16	4
+	+	8	31
+	+	16	5
+	+	13	54
+	+	2	17
+	+	17	83
+	+	21	106
+	+	26	0
+	+	24	8
+	+	12	0
+	+	4	16
+	+	10	11
+	+	31	0
+	+	27	16
+	+	24	10
+	+	10	12
+	+	28	50
+	+	30	58
+
+> ~/01_Tutoriais/01_MPI/jobMPI.sh
+	"	2	16
+	^	2	17
+	.	2	16
+	+	5	2
+	+	2	17
+	+	2	16
+	+	3	0
+	+	2	16
 
 > ~/.bash_profile
 	"	14	39
@@ -239,31 +289,6 @@
 	^	8	13
 	.	8	13
 	+	8	13
-
-> ~/01_Tutoriais/02_OpenMP/hello_openmp.c
-	"	30	1
-	^	30	59
-	.	30	58
-	+	33	0
-	+	1	0
-	+	16	4
-	+	8	31
-	+	16	5
-	+	13	54
-	+	2	17
-	+	17	83
-	+	21	106
-	+	26	0
-	+	24	8
-	+	12	0
-	+	4	16
-	+	10	11
-	+	31	0
-	+	27	16
-	+	24	10
-	+	10	12
-	+	28	50
-	+	30	58
 
 > ~/01_Tutoriais/02_OpenMP/hello_openmp.sh
 	"	5	0
