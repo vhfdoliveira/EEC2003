@@ -1,48 +1,3 @@
-srun --nodes=1 --ntasks=1 --cpus-per-task=3 --time=0-0:5 reduction 
-g++ openmp_reduction.cpp -o reduction -fopenmp
-g++ openmp_reduction.cpp -o reduction -fopenmp `pkg-config --libs --cflags opencv` -ldl -lm
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-g++ openmp_reduction.cpp -o reduction -fopenmp
-exit
-cd 03_MPI_Histogram/
-ls
-g++ openmp_reduction.cpp -o reduction
-g++ openmp_reduction.cpp -o reduction -fopenmp
-module load compilers/gnu/6.4 
-g++ openmp_reduction.cpp -o reduction -fopenmp
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-g++ openmp_reduction.cpp -o reduction -fopenmp
-exit
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-module load compilers/gnu/6.4 
-ls
-cd 03_MPI_Histogram/
-ls
-g++ openmp_reduction.cpp -o reduction -fopenmp
-g++ openmp_reduction.cpp -o reduction -fopenmp `pkg-config --libs --cflags opencv` -ldl -lm
-g++ openmp_reduction.cpp -o reduction -fopenmp 
-g++ openmp_reduction.cpp -o reduction -fopenmp `pkg-config --libs --cflags opencv` -ldl -lm
-g++ `pkg-config --cflags opencv` openmp_reduction.cpp `pkg-config --libs opencv`  -o reduction -fopenmp
-g++ `pkg-config --cflags opencv` -ldl -lm openmp_reduction.cpp `pkg-config --libs opencv`  -o reduction -fopenmp
-g++ `pkg-config --cflags opencv` -ldl -lm openmp_reduction.cpp `pkg-config --libs opencv` -ldl -lm  -o reduction -fopenmp
-pkg-config opencv --libs
-g++ `pkg-config --cflags opencv` -ldl -lm openmp_reduction.cpp `pkg-config --libs opencv` -ldl -lm  -o reduction -fopenmp -lopencv_imgproc
-ls
-cd 04_Perfilagem/
-ls
-module avail
-cd ..
-mkdir 06_
-cd 06_/
-cd ..
-cd 03_MPI_Histogram/
-ls
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-g++ -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-./opencv
 ls
 cd 02_Imagens/
 ls
@@ -997,4 +952,49 @@ ls
 sbatch job_histogram_MPI_OpenMP_nodes_2.sh 
 sbatch job_histogram_MPI_OpenMP_nodes_4.sh 
 squeue | grep vhf
+squeue
+ls
+git add .
+git commit -m "a"
+ls
+cd 08_Multiplicação_matriz/
+ls
+cd ..
+git push origin master
+git add .
+git commit -m "a"
+git push origin master
+ls
+cd 08_Multiplicação_matriz/01_Serial/
+module load compilers/gnu/7.1 
+g++ -o mult_matrix mult_matrix.cpp 
+g++ -o mult_matrix mult_matrix.cpp -Wall
+./mult_matrix 
+./mult_matrix 0 3 3 3 3 0 2
+g++ -o mult_matrix mult_matrix.cpp -Wall
+./mult_matrix 0 3 3 3 3 0 2
+./mult_matrix 0 2 3 3 4 0 2
+g++ -o mult_matrix mult_matrix.cpp -Wall
+./mult_matrix 0 2 3 3 4 0 2
+g++ -o mult_matrix mult_matrix.cpp -Wall
+./mult_matrix 0 2 3 3 4 0 2
+g++ -o mult_matrix mult_matrix.cpp -Wall
+./mult_matrix 0 2 3 3 4 0 2
+./mult_matrix 0 2 2 2 2 0 2
+ls
+cd 08_Multiplicação_matriz/
+ls
+cd 01_Serial/
+ls
+git add .
+git commit -m "a"
+git push origin master
+./mult_matrix 0 100 100 100 100 0 2
+module load compilers/gnu/7.1 
+./mult_matrix 0 100 100 100 100 0 2
+g++ -o mult_matrix mult_matrix.cpp -Wall
+./mult_matrix 0 100 200 200 150 0 2
+./mult_matrix 0 10000 20000 20000 15000 0 2
+g++ -o mult_matrix mult_matrix.cpp -Wall
+./mult_matrix 0 10000 20000 20000 15000 0 1
 squeue

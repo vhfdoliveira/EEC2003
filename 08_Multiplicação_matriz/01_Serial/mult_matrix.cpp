@@ -1,10 +1,16 @@
 /* 
  * Load modules:
  * module load compilers/gnu/7.1
- * module load libraries/openmpi/1.4-gnu-7.1
  * 
  * Compile with:
+ * g++ -o mult_matrix mult_matrix.cpp -Wall
  * 
+ * Usage:
+ * mult_matrix <read_file> <nº of rows of matrix 1> <<nº of columns of matrix 1> 
+ * 			   <nº of rows of matrix 2> <<nº of columns of matrix 2>
+ * 			   <create output file> <debug>
+ * 
+ * example: ./mult_matrix 0 100 200 200 150 0 2
  */
 
 #include <iostream>
@@ -22,8 +28,8 @@ using namespace std;
         
 #define DATE_FORMAT "%Y%m%d_%H%M%S"
 #define DATE_SIZE 20
-#define MINIMUM_VALUE 0
-#define MAXIMUM_VALUE 4
+#define MINIMUM_VALUE -10000
+#define MAXIMUM_VALUE 10000
 
 
 
@@ -83,7 +89,7 @@ int main(int argc, char** argv) {
 	rows_result = rows1;
 	columns_result = columns2;
 	
-	if( debug >= 2 ){
+	if( debug >= 3 ){
 		cout << "INPUTS: " << endl
 			 << "Read file: " << read_file << endl
 			 << "Matrix 1: (" << rows1 << "x" << columns1 << ")" << endl
@@ -113,7 +119,7 @@ int main(int argc, char** argv) {
 		result[i] = new double[columns_result];
 	}
 	
-	if( debug >= 2 ){
+	if( debug >= 3 ){
 		cout << "After dynamic allocation." << endl << endl;
 	}
 	
@@ -125,23 +131,23 @@ int main(int argc, char** argv) {
 		
 		for(int i = 0; i<rows1; i++){
 			for(int j = 0; j<columns1;j++){
-				//matrix1[i][j] = MINIMUM_VALUE + 
-				//				( (double)rand() / ( (double)( RAND_MAX /(MAXIMUM_VALUE-MINIMUM_VALUE) )) );
+				matrix1[i][j] = MINIMUM_VALUE + 
+								( (double)rand() / ( (double)( RAND_MAX /(MAXIMUM_VALUE-MINIMUM_VALUE) )) );
 				
-				matrix1[i][j] = MINIMUM_VALUE + (rand()%MAXIMUM_VALUE);
+				//matrix1[i][j] = MINIMUM_VALUE + (rand()%MAXIMUM_VALUE);
 			}
 		}
 		
 		for(int i = 0; i<rows2; i++){
 			for(int j = 0; j<columns2;j++){
-				//matrix2[i][j] = MINIMUM_VALUE + 
-				//				( (double)rand() / ( (double)( RAND_MAX /(MAXIMUM_VALUE-MINIMUM_VALUE) )) );
+				matrix2[i][j] = MINIMUM_VALUE + 
+								( (double)rand() / ( (double)( RAND_MAX /(MAXIMUM_VALUE-MINIMUM_VALUE) )) );
 				
-				matrix2[i][j] = MINIMUM_VALUE + (rand()%MAXIMUM_VALUE);
+				//matrix2[i][j] = MINIMUM_VALUE + (rand()%MAXIMUM_VALUE);
 			}
 		}
 		
-		if( debug >= 1 ){
+		if( debug >= 2 ){
 			cout << "GENERATED MATRIX'S" << endl << endl;
 			
 			cout << "Matrix 1: " << endl;			
@@ -164,6 +170,8 @@ int main(int argc, char** argv) {
 		}
 	}
 	
+	gettimeofday(&t,NULL);
+	time_ROI_begin = (double)t.tv_sec+(double)t.tv_usec*1e-6;
 	
 	for(int i = 0; i < rows1; i++){
 		for(int j = 0; j < columns2; j++){
@@ -172,9 +180,17 @@ int main(int argc, char** argv) {
 			}
 		}
 	}
-  	
+	
+	gettimeofday(&t,NULL);
+	time_ROI_end = (double)t.tv_sec+(double)t.tv_usec*1e-6;
   	
   	if( debug >= 1 ){
+		cout << "ROI time: " << time_ROI_end - time_ROI_begin << " seconds." << endl;
+	}
+  	
+  	
+  	if( debug >= 2 ){
+		
 		cout << endl << "RESULT" << endl;		
 		for(int i = 0; i<rows_result; i++){
 			cout << "[";
@@ -186,6 +202,12 @@ int main(int argc, char** argv) {
 	}
   	
   	
+  	gettimeofday(&t,NULL);
+	time_end = (double)t.tv_sec+(double)t.tv_usec*1e-6;
+	
+	if( debug >= 1 ){
+		cout << "Total execution time: " << time_end - time_begin << " seconds." << endl;
+	}
 	
 	return 0;
 }
