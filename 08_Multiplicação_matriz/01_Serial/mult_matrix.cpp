@@ -270,5 +270,45 @@ int main(int argc, char** argv) {
 		cout << "Total execution time: " << time_end - time_begin << " seconds." << endl;
 	}
 	
+	
+	if( output ){
+		
+		char date[DATE_SIZE];
+		time_t now = time(0);
+		strftime(date, sizeof(date), DATE_FORMAT, localtime(&now));
+		
+		string csv_name = string("outputs/") + string("output");
+		csv_name += "_nodes_" + SSTR(1);
+		csv_name += "_processes_" + SSTR(1);
+		csv_name += "_threads_" + SSTR(1);
+		csv_name += "_size_" + SSTR(rows1);
+		csv_name += "_" + string(date);		
+		csv_name += ".csv";
+		
+		if( debug >= 2 ){
+			cout << csv_name << endl;
+		}
+		
+		ofstream csv;
+		csv.open(csv_name.c_str());
+		
+		char separator = ';';
+		
+		csv << "ROI time" << separator << time_ROI_end - time_ROI_begin << endl;
+		csv << "Total time" << separator << time_end - time_begin << endl;
+		csv << "nodes" << separator << 1 << endl;
+		csv << "processes" << separator << 1 << endl;
+		csv << "threads" << separator << 1 << endl;
+		csv << "rows matrix 1" << separator << rows1 << endl;
+		csv << "columns matrix 1" << separator << columns1 << endl;
+		csv << "rows matrix 2" << separator << rows2 << endl;
+		csv << "columns matrix 2" << separator << columns2 << endl;
+		
+		
+		csv.close();
+		
+	}
+	
+	
 	return 0;
 }
