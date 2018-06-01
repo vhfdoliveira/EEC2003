@@ -11,6 +11,7 @@
  * 			   <create output file> <debug>
  * 
  * example: ./mult_matrix 0 100 200 200 150 0 2
+ * example: ./mult_matrix 1 100 200 200 150 0 2 matrix1.csv matrix2.csv
  */
 
 #include <iostream>
@@ -168,6 +169,66 @@ int main(int argc, char** argv) {
 				cout << "]" << endl;
 			}
 		}
+	}
+	else{
+		
+		ifstream file1(path1);
+		
+		if( !file1.is_open() ){
+			cout << "Unable to open file: " << path1 << endl;
+			return -1;
+		}
+		
+		ifstream file2(path2);
+		
+		if( !file2.is_open() ){
+			cout << "Unable to open file: " << path2 << endl;
+			return -1;
+		}
+		
+		
+		string read_value;
+		char separator = ';';
+		
+		//TODO: check if the size of the file don't match with the size passed in the arguments and throw an error
+		for(int i = 0; i < rows1; i++){
+			for(int j = 0; j < columns1; j++){
+				getline(file1, read_value, separator);
+				matrix1[i][j] = atof( read_value.c_str() );
+			}
+		}
+		
+		//TODO: check if the size of the file don't match with the size passed in the arguments and throw an error
+		for(int i = 0; i < rows2; i++){
+			for(int j = 0; j < columns2; j++){
+				getline(file2, read_value, separator);
+				matrix2[i][j] = atof( read_value.c_str() );
+			}
+		}
+		
+		
+		if( debug >= 2 ){
+			cout << "READED MATRIX'S" << endl << endl;
+			
+			cout << "Matrix 1: " << endl;			
+			for(int i = 0; i<rows1; i++){
+				cout << "[";
+				for(int j = 0; j<columns1;j++){
+					cout << matrix1[i][j] << " ";
+				}
+				cout << "]" << endl;
+			}
+			
+			cout << endl << "Matrix 2: " << endl;			
+			for(int i = 0; i<rows2; i++){
+				cout << "[";
+				for(int j = 0; j<columns2;j++){
+					cout << matrix2[i][j] << " ";
+				}
+				cout << "]" << endl;
+			}
+		}
+		
 	}
 	
 	gettimeofday(&t,NULL);
