@@ -1,60 +1,3 @@
-ls
-cd 02_Imagens/
-ls
-pwd
-cd ..
-./opencv  /home/vhfdoliveira2/03_MPI_Histogram/02_Imagens/black_white.jpg
-srun --nodes=2 --cpus-per-task=2 --time=0-0:5 opencv "02_Imagens/Einstein_6400x6400.jpg"
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-module load compilers/gnu/7.1 
-mpiicc -O2 opencv_hist_MPI_openmp.cpp -o opencv `pkg-config --libs --cflags opencv` -ldl -lm -openmp
-cd
-ls
-cd intel/
-ls
-cd ism/rm/intelremotemon
-ls
-cd ism/
-ls
-cd rm/intelremotemon
-cd rm
-ls
-cd
-cd /opt/intel/
-ls
-cd parallel_studio_xe_2018/
-ls
-cd bin/
-ls
-cd ..
-cd parallel_studio_xe_2016.1.056/bin/
-ls
-source psxevars.sh 
-module avail
-ls
-cd 01_Tutoriais/03_libpng/
-ls
-gcc example_zarb.c -o example_zarb
-module load n
-cd ..
-ls
-mkdir 07_Dados_derivados
-cd 07_Dados_derivados/
-ls
-g++ PI_MPI_time_1_reduce.cpp -o PI_MPI
-mpiicc PI_MPI_time_1_reduce.cpp -o PI_MPI
-./PI_MPI 
-./PI_MPI 2
-./PI_MPI 1
-mpiicc PI_MPI_time_1_reduce.cpp -o PI_MPI
-ls -al
-mpiicc PI_MPI_time_1_reduce.cpp -o PI_MPI
-./PI_MPI 1
-srun --nodes=1 --ntasks=2 PI_MPI 1
-srun --nodes=1 --ntasks=2 --time=0-0:2 PI_MPI 1
-mpiicc PI_MPI_time_1_reduce.cpp -o PI_MPI
-mpiicc PI_derived_send_recv.cpp -o PI_derived
-
 srun --nodes=1 --ntasks=2 --time=0-0:2 PI_derived 1
 mpiicc PI_derived_gather.cpp -o PI_derived
 srun --nodes=1 --ntasks=2 --time=0-0:2 PI_derived 1
@@ -997,4 +940,61 @@ g++ -o mult_matrix mult_matrix.cpp -Wall
 ./mult_matrix 0 10000 20000 20000 15000 0 2
 g++ -o mult_matrix mult_matrix.cpp -Wall
 ./mult_matrix 0 10000 20000 20000 15000 0 1
+squeue
+git commit -m "a"
+git add .
+git commit -m "a"
+git push origin master
+squeue
+exit
+git pull origin master
+ls
+cd 08_Multiplicação_matriz/
+s
+ls
+cd 01_Serial/
+ls
+g++ -o mult_matrix mult_matrix.cpp -Wall
+module load compilers/gnu/7.1 
+g++ -o mult_matrix mult_matrix.cpp -Wall
+./mult_matrix 
+./mult_matrix 0 512 512 512 512 0 1
+./mult_matrix 0 1024 1024 1024 1024 0 1
+./mult_matrix 0 2048 1024 1024 1024 0 1
+./mult_matrix 0 4096 1024 1024 1024 0 1
+./mult_matrix 0 8192 1024 1024 1024 0 1
+git pull origin master
+ls
+mkdir outputs
+mkdir slurm_outputs
+ls
+g++ -o mult_matrix mult_matrix.cpp -Wall
+./mult_matrix 0 1024 1024 1024 1024 1 1
+ls
+cd outputs/
+ls
+cd ..
+./mult_matrix 0 2048 2048 2048 2048 0 1
+ls
+g++ -o generate_matrix generate_matrix.cpp -Wall
+ls
+./generate_matrix 
+./generate_matrix 1024 1024 -10000 10000 matrix2_1024x1024.csv
+./generate_matrix 2048 1024 -10000 10000 matrix1_2048x1024.csv
+./generate_matrix 4096 1024 -10000 10000 matrix1_4096x1024.csv
+./generate_matrix 8192 1024 -10000 10000 matrix1_8192x1024.csv
+./generate_matrix 16384 1024 -10000 10000 matrix1_16384x1024.csv
+./generate_matrix 1024 1024 -10000 10000 matrix1_1024x1024.csv
+ls
+sbatch jobSerial.sh 
+cd outputs/
+ls
+cd ..
+./mult_matrix 1 1024 1024 1024 1024 1 1 "matrix1_1024x1024.csv" "matrix2_1024x1024.csv"
+cd outputs/
+ls
+cd ..
+ls
+exit
+squeue | grep vhf
 squeue
