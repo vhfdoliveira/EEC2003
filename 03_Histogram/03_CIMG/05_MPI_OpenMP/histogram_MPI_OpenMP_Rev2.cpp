@@ -1,13 +1,25 @@
 /* 
  * Load modules:
- * module load compilers/gnu/7.1
  * module load libraries/openmpi/1.4-gnu-7.1
+ * module load compilers/gnu/7.1
+ * 
  * 
  * Compile with:
- * mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+ * mpic++ -o histogram_MPI_OpenMP_Rev2 histogram_MPI_OpenMP_Rev2.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+ * 
  * 
  * Use:
- * mpirun --n 1 histogram_MPI_OpenMP 0 34 2 0
+ * mpirun --n 2 histogram_MPI_OpenMP_Rev2 0 16 16 2 0
+ * 
+ * 
+ * Version control:
+ * 
+ * 	Rev2:
+ * 		- Each process gets 'n' columns and divide the rows for their threads
+ * 		- Note that the code remains basically the same, changing only the variable that each for iterates (the outer for loops over the columns and the inner for loops over the rows)
+ * 
+ * 	Rev1:
+ * 		- Each process gets 'n' rows and divide the columns for their threads
  */
 
 
@@ -171,19 +183,19 @@ int main(int argc, char** argv) {
 	
 	
 	//TODO: check when this division isn't integer
-	unsigned int local_rows = rows / comm_sz;
+	unsigned int local_columns = columns / comm_sz;
 	
-	for(unsigned int x = rank*local_rows; x < (rank+1)*local_rows; x++){
+	for(unsigned int y = rank*local_columns; y < (rank+1)*local_columns; y++){
 	
 		#pragma omp parallel
 		{
-			if( (omp_get_thread_num() == 0) and (x == rank*local_rows) ){ 
+			if( (omp_get_thread_num() == 0) and (y == rank*local_columns) ){ 
 				nthreads = omp_get_num_threads();
 				cout << endl << "Number of threads is: " << nthreads << endl;
 			}
 			
 			#pragma omp for reduction(+:hist[:HIST_SIZE])							
-			for (unsigned int y = 0; y < columns; y++)
+			for (unsigned int x = 0; x < rows; x++)
 			{
 				
 				unsigned char R;
@@ -235,7 +247,7 @@ int main(int argc, char** argv) {
 			time_t now = time(0);
 			strftime(date, sizeof(date), DATE_FORMAT, localtime(&now));
 			
-			string csv_name = string("outputs/") + string("output");
+			string csv_name = string("outputs/Rev2/") + string("output");
 			csv_name += "_nodes_" + SSTR(nodes);
 			csv_name += "_processes_" + SSTR(comm_sz);
 			csv_name += "_threads_" + SSTR(nthreads);
@@ -271,7 +283,7 @@ int main(int argc, char** argv) {
 	MPI_Finalize();
 	
 	
-	for (unsigned int i = 0; i < ARRAY_SIZE; ++i)
+	for (unsigned int i = 0; i < ROWS_SIZE; ++i)
 		delete [] image_simul[i];
 	delete [] image_simul;
 	

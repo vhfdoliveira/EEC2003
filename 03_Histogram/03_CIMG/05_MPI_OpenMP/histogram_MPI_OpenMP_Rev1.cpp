@@ -4,10 +4,16 @@
  * module load libraries/openmpi/1.4-gnu-7.1
  * 
  * Compile with:
- * mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+ * mpic++ -o histogram_MPI_OpenMP_Rev1 histogram_MPI_OpenMP_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
  * 
  * Use:
  * mpirun --n 2 histogram_MPI_OpenMP 0 16 16 2 0
+ * 
+ * 
+ * Version control:
+ * 
+ * 	- Rev1:
+ * 		- Each process gets 'n' rows and divide the columns for their threads
  */
 
 
