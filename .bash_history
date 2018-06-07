@@ -1,167 +1,3 @@
-srun --nodes=1 --ntasks=2 --time=0-0:2 PI_derived 1
-mpiicc PI_derived_gather.cpp -o PI_derived
-srun --nodes=1 --ntasks=2 --time=0-0:2 PI_derived 1
-mpiicc PI_derived_gather.cpp -o PI_derived
-srun --nodes=1 --ntasks=2 --time=0-0:2 PI_derived 1
-mpiicc PI_derived_gather.cpp -o PI_derived
-srun --nodes=1 --ntasks=2 --time=0-0:2 PI_derived 1
-srun --nodes=1 --ntasks=3 --time=0-0:2 PI_derived 1
-mpiicc PI_derived_gather.cpp -o PI_derived
-srun --nodes=1 --ntasks=3 --time=0-0:2 PI_derived 1
-ls
-git
-cd 03_MPI_Histogram/
-ls
-git
-module load softwares/git/2.11.0-gnu-4.4 
-git
-ls
-git pull origin master
-git commit . -m "a"
-git push origin master
-ls
-git add . -m "a"
-git add .
-git commit . -m "a"
-git push origin master
-ls
-cd Demetrius/
-ls
-cd ..
-ls
-cd 03_CIMG/
-ls
-g++ -Wall hello_world.cpp -o hello
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-cd ..
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-ls
-cd 03_MPI_Histogram/03_CIMG/
-ls
-./hello 
-g++ -Wall hello_world.cpp -o hello
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello
-srun --time=0-0:1 hello
-ls
-cd CImg_latest
-ls
-cd CImg-2.2.2/
-ls
-pwd
-cd ..
-ls
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello
-srun --time=0-0:1 hello
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello
-srun --time=0-0:1 hello
-cd /scratch/local/vhfdoliveira2/
-ls
-cd /scratch/
-ls
-cd ..
-cd
-cd 03_MPI_Histogram/03_CIMG/
-ls
-mpiicc hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-srun --time=0-0:1 hello
-mpiicc hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-mpiicc hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-srun --time=0-0:1 hello
-module load compilers/gnu/7.1 
-g++ hello_world.cpp -o hello -Dcimg_display=0
-./hello 
-srun --time=0-0:1 hello
-g++ hello_world.cpp -o hello -Dcimg_display=0 -ljpeg
-./hello 
-srun --time=0-0:1 hello
-module avail
-module load libraries/png/1.6.29-intel-16.0.1
-module load softwares/opencv/2.4.13.3-gnu-4.8 
-module load libraries/gmp/5.1-gnu-4.4 
-g++ hello_world.cpp -o hello -Dcimg_display=0 -ljpeg
-./hello 
-srun --time=0-0:1 hello
-g++ hello_world.cpp -o hello -Dcimg_display=0 -ljpeg
-./hello 
-srun --time=0-0:1 hello
-g++ hello_world.cpp -o hello -Dcimg_display=0 -ljpeg
-./hello 
-srun --time=0-0:1 hello
-g++ hello_world.cpp -o hello -Dcimg_display=0 -ljpeg -O2 -L/usr/X11R6/lib -lm -lpthread -lX11
-./hello 
-srun --time=0-0:1 hello
-g++ hello_world.cpp -o hello -Dcimg_display=0 -ljpeg -O2 -L/usr/X11R6/lib -lm -lpthread -lX11
-srun --time=0-0:1 hello
-g++ hello_world.cpp -o hello -Dcimg_display=0 -ljpeg -O2 -L/usr/X11R6/lib -lm -lpthread -lX11 -lpng -ljpeg -lz
-./hello 
-srun --time=0-0:1 hello
-ls
-cd 03_MPI_Histogram/03_CIMG/
-ls
-cd CImg_latest/CImg-2.2.2/examples/
-ls
-make wavelet_atrous.cpp 
-make
-module load compilers/gnu/7.1 
-make linux
-ls
-./wavelet_atrous 
-g++ -o wavelet_atrous wavelet_atrous.cpp -I.. -Wall -Wextra -Wfatal-errors -std=c++11 -pedantic -Dcimg_use_vt100 -Dcimg_display=0    -lm -lX11   -lpthread
-./wavelet_atrous 
-srun --time=0-0:2 wavelet_atrous
-cd ..
-ls
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello
-srun --time=0-0:2 hello
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello
-srun --time=0-0:2 hello
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello
-srun --time=0-0:2 hello
-g++ -Wall hello_world.cpp -o hello -Dcimg_display=0
-./hello
-srun --time=0-0:2 hello
-ls
-cd CImg_latest/CImg-2.2.2/examples/
 ls
 make use_jpeg_buffer.cpp 
 g++ -o use_jpeg_buffer use_jpeg_buffer.cpp -I.. -Wall -Wextra -Wfatal-errors -std=c++11 -pedantic -Dcimg_use_vt100 -Dcimg_display=0    -lm -lX11   -lpthread -Dcimg_use_jpeg -ljpeg
@@ -998,3 +834,167 @@ ls
 exit
 squeue | grep vhf
 squeue
+git pull origin master
+cd 08_Multiplicação_matriz/01_Serial/
+rm mult_matrix
+git pull origin master
+ls
+cd ..
+ls
+cd ..
+ls
+git add .
+git commit -m "a"
+git push origin master
+ls
+cd 02_
+cd 02_MPI_PI/
+ls
+cd ..
+cd 02_PI/
+ls
+cd ..
+ls
+cd 03_Histogram/
+ls
+cd 03_CIMG/
+ls
+cd 04_OpenMP/
+ls
+g++ -o histogram_OpenMP histogram_OpenMP_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+module load compilers/gnu/7.1 
+g++ -o histogram_OpenMP histogram_OpenMP_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_OpenMP 
+./histogram_OpenMP 0 15 15 1 0
+export OMP_NUM_THREADS=16
+./histogram_OpenMP 0 13 15 1 0
+export OMP_NUM_THREADS=32
+./histogram_OpenMP 0 16 15 1 0
+./histogram_OpenMP 0 17 15 1 0
+./histogram_OpenMP 0 16 16 1 0
+ls
+export OMP_NUM_THREADS=32
+./histogram_OpenMP 0 16 16 1 1
+cd ..
+cd 02_Serial/
+ls
+g++ -o histogram_serial histogram_serial_Rev3.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg
+./histogram_serial 
+./histogram_serial 0 14 14 1 0
+./histogram_serial 0 16 16 1 0
+./histogram_serial 0 16 16 1 1
+cd ..
+cd 05_MPI_OpenMP/
+ls
+module load libraries/openmpi/1.4-gnu-7.1 
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+module load compilers/gnu/7.3 
+mpic++ -o histogram_MPI_OpenMP histogram_MPI_OpenMP_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+./histogram_MPI_OpenMP 
+mpirun --n 2 histogram_MPI_OpenMP 0 15 15 2 0
+mpirun --n 1 histogram_MPI_OpenMP 0 15 15 1 0
+cd ..
+cd 02_Serial/
+ls
+sbatch jobSerial_Rev1.sh 
+squeue | grep vhf
+cd ..
+cd 03_CIMG/02_Serial/
+cd ..
+ls
+cd 04_OpenMP/
+ls
+sbatch jobOpenMP_Rev1.sh 
+squeue | grep vhf
+cd ..
+cd 05_MPI_OpenMP/
+l
+ls
+sbatch job_histogram_MPI_OpenMP_nodes_2_Rev1.sh 
+squeue | grep vhf
+ls
+cd slurm_outputs/
+ls
+ls -al
+cat slurm-237015.out 
+cd ..
+ls
+sbatch job_histogram_MPI_OpenMP_nodes_2_Rev1.sh 
+squeue | grep vhf
+ls
+sbatch job_histogram_MPI_OpenMP_nodes_2_Rev1.sh 
+squeue | grep vhf
+sbatch job_histogram_MPI_OpenMP_nodes_2_Rev1.sh 
+squeue | grep vhf
+sbatch job_histogram_MPI_OpenMP_nodes_4_Rev1.sh 
+squeue | grep vhf
+exit
+ls
+cd 01_Tutoriais/02_OpenMP/
+ls
+vim hello_openmp.cpp 
+vim hello_openmp.sh 
+ls
+module load compilers/gnu/7.1 
+g++ -o hello_openmp hello_openmp.cpp -Wall
+g++ -o hello_openmp hello_openmp.cpp -Wall -fopenmp
+./hello_openmp 
+sbatch hello_openmp_1.sh 
+ls
+cat slurm-237008.out 
+sbatch hello_openmp_1.sh 
+cat slurm-237009.out 
+sbatch hello_openmp_1.sh 
+cat slurm-237010.out 
+sbatch hello_openmp_1.sh 
+cat slurm-237011.out 
+exit
+squeue | grep vhf
+ls
+cd 03_
+cd 03_Histogram/
+ls
+cd 03_CIMG/02_Serial/
+ls
+git commit -m "a"
+git add histogram_serial_Rev3.cpp 
+git commit -m "a"
+cd ..
+ls
+cd 02_Serial/
+ls
+git add jobSerial_Rev1.sh 
+cd ..
+cd 04_OpenMP/
+git add histogram_OpenMP_Rev1.cpp 
+git add jobOpenMP_Rev1.sh 
+cd ..
+cd 05_MPI_OpenMP/
+ls
+git add histogram_MPI_OpenMP_Rev1.cpp 
+git add job_histogram_MPI_OpenMP_nodes_2_Rev1.sh 
+git add job_histogram_MPI_OpenMP_nodes_4_Rev1.sh 
+git commit -m "a"
+cd ..
+cd 01_Imagens/
+cd ..
+ls
+cd 02_Serial/
+ls
+./histogram_serial 
+module load libraries/openmpi/1.4-gnu-7.1 
+module load compilers/gnu/7.1 
+./histogram_serial 
+cd ..
+cd 01_Imagens/
+ls
+pwd
+cd ..
+cd 02_Serial/
+./histogram_serial /home/vhfdoliveira2/03_Histogram/03_CIMG/01_Imagens/black_white.jpg 
+./histogram_serial "/home/vhfdoliveira2/03_Histogram/03_CIMG/01_Imagens/black_white.jpg"
+ls
+squeue | grep vhf
+exit
+squeue | grep vhf
+exit
