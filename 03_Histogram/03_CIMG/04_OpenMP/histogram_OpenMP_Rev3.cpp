@@ -4,7 +4,7 @@
  *  
  * Compile with:
  * mpic++ -o histogram_MPI histogram_MPI_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
- * g++ -o histogram_OpenMP histogram_OpenMP_Rev1.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
+ * g++ -o histogram_OpenMP_Rev3 histogram_OpenMP_Rev3.cpp -Wall -Dcimg_display=0 -Dcimg_use_jpeg -ljpeg -fopenmp
  * 
  * Use:
  * ./histogram_OpenMP "black_white.jpeg"
@@ -169,7 +169,7 @@ int main(int argc, char** argv) {
 			cout << endl << "Number of threads is: " << nthreads << endl;
 		}
 		
-		#pragma omp for reduction(+:hist[:256]) collapse(2) 
+		#pragma omp for reduction(+:hist[:HIST_SIZE]) collapse(2) 
 		for(unsigned long int x = 0; x < height; x++){					
 			for (unsigned long int y = 0; y < width; y++)
 			{
@@ -223,7 +223,7 @@ int main(int argc, char** argv) {
 		time_t now = time(0);
 		strftime(date, sizeof(date), DATE_FORMAT, localtime(&now));
 		
-		string csv_name = string("outputs/") + string("output");
+		string csv_name = string("outputs/Rev3/") + string("output");
 		csv_name += "_nodes_" + SSTR(nodes);
 		csv_name += "_processes_" + SSTR(1);
 		csv_name += "_threads_" + SSTR(nthreads);
