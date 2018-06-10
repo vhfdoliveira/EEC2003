@@ -9,8 +9,6 @@ using namespace std;
 int main (int argc, char *argv[])
 {
   
-  cout << "Before the MPI_Init." << endl;
-
   int  rank, comm_sz, len;
   char hostname[MPI_MAX_PROCESSOR_NAME];
   
@@ -21,7 +19,9 @@ int main (int argc, char *argv[])
   
   cout << "From process " << rank <<" running on processor " << hostname << ": Number of MPI processes is " << comm_sz << endl;
 
-  //printf("From process %d: Number of MPI processes is %d\n", rank, comm_sz);
 
   MPI_Finalize();
+
+
+  return 0;
 }

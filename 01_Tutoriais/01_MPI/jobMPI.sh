@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --nodes=3
+#SBATCH --nodes=2
 #SBATCH --time=0-0:5
 
-mpirun hello_mpi
+srun hello_mpi
 
